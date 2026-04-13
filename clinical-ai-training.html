@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>臨床 AI 人才培育 — LLM Wiki</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="topnav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">
+        <span class="brand-icon">📚</span> LLM Wiki
+      </a>
+      <div class="search-wrapper">
+        <input type="text" id="search-input" placeholder="搜尋知識庫…" autocomplete="off">
+        <div id="search-results" class="search-dropdown"></div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-section">
+        <h3>知識主軸</h3>
+        <ul class="nav-list">
+          <li><a href="index.html#axis-1">數位健康能力框架</a></li>
+          <li><a href="index.html#axis-2">醫療 AI 導入與評估</a></li>
+          <li><a href="index.html#axis-3">臨床 AI 人才培育</a></li>
+          <li><a href="index.html#axis-4">策略與政策</a></li>
+        </ul>
+      </div>
+      <div class="sidebar-section">
+        <h3>頁面分類</h3>
+        <ul class="nav-list">
+          <li><a href="type/analysis.html">📊 分析</a></li>
+          <li><a href="type/concept.html">💡 概念</a></li>
+          <li><a href="type/entity.html">👤 實體</a></li>
+          <li><a href="type/summary.html">📄 摘要</a></li>
+        </ul>
+      </div>
+      <div class="sidebar-section">
+        <h3>關鍵詞</h3>
+        <div id="tag-cloud" class="tag-cloud"><a href="tag/數位能力.html" class="tag-pill" data-tag="數位能力">數位能力 <small>(6)</small></a>
+<a href="tag/NHS.html" class="tag-pill" data-tag="NHS">NHS <small>(5)</small></a>
+<a href="tag/AI導入.html" class="tag-pill" data-tag="AI導入">AI導入 <small>(4)</small></a>
+<a href="tag/人物.html" class="tag-pill" data-tag="人物">人物 <small>(3)</small></a>
+<a href="tag/組織.html" class="tag-pill" data-tag="組織">組織 <small>(3)</small></a>
+<a href="tag/臨床AI.html" class="tag-pill" data-tag="臨床AI">臨床AI <small>(3)</small></a>
+<a href="tag/基層醫療.html" class="tag-pill" data-tag="基層醫療">基層醫療 <small>(3)</small></a>
+<a href="tag/醫療AI.html" class="tag-pill" data-tag="醫療AI">醫療AI <small>(3)</small></a>
+<a href="tag/AI能力.html" class="tag-pill" data-tag="AI能力">AI能力 <small>(3)</small></a>
+<a href="tag/醫療人力.html" class="tag-pill" data-tag="醫療人力">醫療人力 <small>(3)</small></a>
+<a href="tag/Stanford.html" class="tag-pill" data-tag="Stanford">Stanford <small>(2)</small></a>
+<a href="tag/Australia.html" class="tag-pill" data-tag="Australia">Australia <small>(2)</small></a>
+<a href="tag/UK.html" class="tag-pill" data-tag="UK">UK <small>(2)</small></a>
+<a href="tag/醫學教育.html" class="tag-pill" data-tag="醫學教育">醫學教育 <small>(2)</small></a>
+<a href="tag/健康公平.html" class="tag-pill" data-tag="健康公平">健康公平 <small>(2)</small></a>
+<a href="tag/品質改善.html" class="tag-pill" data-tag="品質改善">品質改善 <small>(2)</small></a>
+<a href="tag/臨床導入.html" class="tag-pill" data-tag="臨床導入">臨床導入 <small>(2)</small></a>
+<a href="tag/同儕審查.html" class="tag-pill" data-tag="同儕審查">同儕審查 <small>(2)</small></a>
+<a href="tag/課程設計.html" class="tag-pill" data-tag="課程設計">課程設計 <small>(2)</small></a>
+<a href="tag/人才培育.html" class="tag-pill" data-tag="人才培育">人才培育 <small>(2)</small></a>
+<a href="tag/醫師科學家.html" class="tag-pill" data-tag="醫師科學家">醫師科學家 <small>(1)</small></a>
+<a href="tag/流行病學.html" class="tag-pill" data-tag="流行病學">流行病學 <small>(1)</small></a>
+<a href="tag/數位健康.html" class="tag-pill" data-tag="數位健康">數位健康 <small>(1)</small></a>
+<a href="tag/臨床AI教育.html" class="tag-pill" data-tag="臨床AI教育">臨床AI教育 <small>(1)</small></a>
+<a href="tag/EU.html" class="tag-pill" data-tag="EU">EU <small>(1)</small></a>
+<a href="tag/USA.html" class="tag-pill" data-tag="USA">USA <small>(1)</small></a>
+<a href="tag/Canada.html" class="tag-pill" data-tag="Canada">Canada <small>(1)</small></a>
+<a href="tag/ASEAN.html" class="tag-pill" data-tag="ASEAN">ASEAN <small>(1)</small></a>
+<a href="tag/Singapore.html" class="tag-pill" data-tag="Singapore">Singapore <small>(1)</small></a>
+<a href="tag/UNESCO.html" class="tag-pill" data-tag="UNESCO">UNESCO <small>(1)</small></a>
+<a href="tag/Scoping Review.html" class="tag-pill" data-tag="Scoping Review">Scoping Review <small>(1)</small></a>
+<a href="tag/衡量工具.html" class="tag-pill" data-tag="衡量工具">衡量工具 <small>(1)</small></a>
+<a href="tag/文獻回顧.html" class="tag-pill" data-tag="文獻回顧">文獻回顧 <small>(1)</small></a>
+<a href="tag/教科書.html" class="tag-pill" data-tag="教科書">教科書 <small>(1)</small></a>
+<a href="tag/路線圖.html" class="tag-pill" data-tag="路線圖">路線圖 <small>(1)</small></a>
+<a href="tag/Fellowship.html" class="tag-pill" data-tag="Fellowship">Fellowship <small>(1)</small></a>
+<a href="tag/AI評估.html" class="tag-pill" data-tag="AI評估">AI評估 <small>(1)</small></a>
+<a href="tag/醫療品質.html" class="tag-pill" data-tag="醫療品質">醫療品質 <small>(1)</small></a>
+<a href="tag/核心概念.html" class="tag-pill" data-tag="核心概念">核心概念 <small>(1)</small></a>
+<a href="tag/實施方法.html" class="tag-pill" data-tag="實施方法">實施方法 <small>(1)</small></a>
+<a href="tag/驗證.html" class="tag-pill" data-tag="驗證">驗證 <small>(1)</small></a>
+<a href="tag/法規.html" class="tag-pill" data-tag="法規">法規 <small>(1)</small></a>
+<a href="tag/標準.html" class="tag-pill" data-tag="標準">標準 <small>(1)</small></a>
+<a href="tag/醫療器材.html" class="tag-pill" data-tag="醫療器材">醫療器材 <small>(1)</small></a>
+<a href="tag/認知偏見.html" class="tag-pill" data-tag="認知偏見">認知偏見 <small>(1)</small></a>
+<a href="tag/人因工程.html" class="tag-pill" data-tag="人因工程">人因工程 <small>(1)</small></a>
+<a href="tag/臨床安全.html" class="tag-pill" data-tag="臨床安全">臨床安全 <small>(1)</small></a>
+<a href="tag/醫療框架.html" class="tag-pill" data-tag="醫療框架">醫療框架 <small>(1)</small></a>
+<a href="tag/AI偏見.html" class="tag-pill" data-tag="AI偏見">AI偏見 <small>(1)</small></a>
+<a href="tag/演算法正義.html" class="tag-pill" data-tag="演算法正義">演算法正義 <small>(1)</small></a>
+<a href="tag/倫理.html" class="tag-pill" data-tag="倫理">倫理 <small>(1)</small></a>
+<a href="tag/框架比較.html" class="tag-pill" data-tag="框架比較">框架比較 <small>(1)</small></a>
+<a href="tag/跨國分析.html" class="tag-pill" data-tag="跨國分析">跨國分析 <small>(1)</small></a></div>
+      </div>
+    </aside>
+
+    <main class="content">
+      <article class="wiki-page">
+  <header class="page-header">
+    <span class="type-badge type-concept">概念</span>
+    <h1>臨床 AI 人才培育</h1>
+    <div class="page-meta">
+      <span>建立：2026-04-14</span>
+      <span>更新：2026-04-14</span>
+    </div>
+    <div class="page-tags">
+      <a href="tag/人才培育.html" class="tag-pill">人才培育</a> <a href="tag/醫學教育.html" class="tag-pill">醫學教育</a> <a href="tag/臨床AI.html" class="tag-pill">臨床AI</a> <a href="tag/課程設計.html" class="tag-pill">課程設計</a>
+    </div>
+  </header>
+
+  <div class="page-body">
+    <h1 id="ai">臨床 AI 人才培育</h1>
+<h2 id="_1">定義</h2>
+<p>訓練臨床醫師具備 AI 專業知識，使其能在不脫離臨床工作的前提下，參與 AI 工具的開發、評估、部署和治理。</p>
+<h2 id="_2">核心挑戰</h2>
+<ul>
+<li>主流學術 AI 路徑與臨床訓練無法整合（高成本、中斷臨床工作）</li>
+<li>大多數現有課程缺乏臨床 AI 應用的相關內容</li>
+<li>臨床醫師在 AI 開發中至少扮演 <strong>9 種不同角色</strong>（Scheek et al., 2021）</li>
+</ul>
+<h2 id="_3">代表性培育模式</h2>
+<h3 id="nhs-fellowship-in-clinical-ai">NHS Fellowship in Clinical AI（英國）</h3>
+<ul>
+<li><strong>模式：</strong> 12 個月、0.4 FTE，嵌入 NHS 臨床 AI 團隊</li>
+<li><strong>課程：</strong> 5 大主題（AI 基礎、法規標準、驗證評估、系統整合、策略文化）</li>
+<li><strong>教學：</strong> 沉浸式專案 + 工作坊 + 線上學習 + 人脈網絡</li>
+<li><strong>來源：</strong> <a href="summary-fcai-clinical-ai-curriculum.html" class="wikilink">FCAI Curriculum v3.2</a></li>
+</ul>
+<h3 id="_4">美國培訓路徑</h3>
+<ul>
+<li>ACGME Clinical Informatics Fellowship</li>
+<li>American Board of AI in Medicine (ABAIM) 認證</li>
+<li>AMIA 10×10 虛擬課程</li>
+<li><strong>來源：</strong> <a href="summary-clinicians-guide-ai-primary-care.html" class="wikilink">Clinician's Guide to AI</a></li>
+</ul>
+<h3 id="_5">自學參考資源</h3>
+<ul>
+<li><a href="summary-physician-ai-handbook.html" class="wikilink">The Physician AI Handbook</a>（CC BY 4.0，19 專科證據整理）</li>
+</ul>
+<h2 id="_6">關鍵能力領域（跨來源綜合）</h2>
+<table>
+<thead>
+<tr>
+<th>能力</th>
+<th style="text-align: center;">FCAI Curriculum</th>
+<th style="text-align: center;">Clinician's Guide</th>
+<th style="text-align: center;">Physician AI Handbook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AI/ML 基礎概念</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+</tr>
+<tr>
+<td>法規與合規</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">✓</td>
+</tr>
+<tr>
+<td>驗證與評估</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+</tr>
+<tr>
+<td>偏見與公平</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+</tr>
+<tr>
+<td>工作流程整合</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">✓</td>
+</tr>
+<tr>
+<td>品質改善方法</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">—</td>
+</tr>
+<tr>
+<td>策略與變革管理</td>
+<td style="text-align: center;">✓</td>
+<td style="text-align: center;">—</td>
+<td style="text-align: center;">—</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_7">政策支持</h2>
+<ul>
+<li><strong>The Topol Review (2019)：</strong> 呼籲 NHS 建立具有專門認證時間的臨床 AI 職位</li>
+<li><strong>Quintuple Aim：</strong> AI 導入應支持品質、體驗、成本、公平、人員福祉五大目標</li>
+</ul>
+<h2 id="_8">相關頁面</h2>
+<ul>
+<li><a href="summary-fcai-clinical-ai-curriculum.html" class="wikilink">FCAI Curriculum 摘要</a></li>
+<li><a href="summary-clinicians-guide-ai-primary-care.html" class="wikilink">Clinician's Guide to AI 摘要</a></li>
+<li><a href="summary-physician-ai-handbook.html" class="wikilink">The Physician AI Handbook 摘要</a></li>
+<li><a href="ai-clinical-evaluation.html" class="wikilink">AI 臨床評估框架</a></li>
+<li><a href="stanford-method.html" class="wikilink">The Stanford Method</a></li>
+<li><a href="digital-health-capability.html" class="wikilink">數位健康能力</a></li>
+<li><a href="analysis-global-digital-health-capability-frameworks.html" class="wikilink">跨國框架比較分析</a></li>
+</ul>
+  </div>
+
+  <div class="backlinks"><h2>🔗 反向連結</h2><ul><li><a href="analysis-global-digital-health-capability-frameworks.html" class="wikilink">跨國數位健康能力框架比較分析</a></li><li><a href="digital-health-capability.html" class="wikilink">數位健康能力</a></li><li><a href="summary-fcai-clinical-ai-curriculum.html" class="wikilink">來源摘要：NHS Fellowship in Clinical AI — Clinical AI Curriculum v3.2</a></li><li><a href="summary-frameworks-international.html" class="wikilink">來源摘要：國際與多國數位能力框架</a></li></ul></div>
+
+  <div class="sources-section"><h2>📎 來源</h2><ul><li>raw/papers/fcai-clinical-ai-curriculum-v3.2.md</li><li>raw/papers/clinicians-guide-ai-primary-care-lead-healthcare-ai.md</li><li>raw/articles/physician-ai-handbook.md</li><li>raw/papers/nhs-ai-digital-healthcare-technologies-capability-framework.md</li><li>raw/papers/us-hhs-ai-strategic-plan.md</li><li>raw/papers/unesco-ai-competency-framework-teachers.md</li><li>raw/papers/sg-digital-competencies-medical-curriculum.md</li></ul></div>
+</article>
+
+    </main>
+  </div>
+
+  <footer>
+    <p>LLM Wiki — 持續更新的醫療 AI 知識庫 · 最後建置：2026-04-13 17:05</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

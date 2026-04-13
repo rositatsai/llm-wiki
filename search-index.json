@@ -1,0 +1,267 @@
+[
+  {
+    "slug": "bryan-tegomoh",
+    "title": "Bryan Tegomoh",
+    "type": "entity",
+    "tags": [
+      "人物",
+      "醫師科學家",
+      "流行病學"
+    ],
+    "body": "Bryan Tegomoh 身份： Physician-Scientist、Epidemiologist 學歷： MD, MPH（UC Berkeley、University of Yaounde I） 機構： Washington University School of Medicine in St. Louis 主要著作 - The Physician AI Handbook: Peer-Reviewed Evidence for Every Specialty（2026） - DOI: 10.5281/zenodo.18251405 - 授權：CC BY 4.0 - 涵蓋 19 個 ACGME 專科的 AI 同儕審查證據 相關頁面 - The Physician AI Handbook 摘要"
+  },
+  {
+    "slug": "gstt-csc",
+    "title": "GSTT Clinical Scientific Computing",
+    "type": "entity",
+    "tags": [
+      "組織",
+      "NHS",
+      "臨床AI"
+    ],
+    "body": "GSTT Clinical Scientific Computing 全稱： Clinical Scientific Computing Department, Guy's and St Thomas' NHS Foundation Trust 網站： https://gstt-csc.github.io/team.html 聯絡： gstt.aifellowship@nhs.net Director： Haris Shuaib, MPhys MFCI MIPEM 定位 NHS Fellowship in Clinical AI 的教學團隊所在部門，擁有 NHS 臨床 AI 工具完整生命週期的深厚實務經驗，由 NHS Digital Academy 支持。 主要成員 - Dr Alexander T Deng — Programme Lead - Dr Danny Ruta, MBBS — Clinical AI Lead, Guy's Cancer Centre - Beatrix Fletcher — Programme Manager - Haris Shuaib — Director 代表性合作專案 - Moorfields-Google DeepMind 眼科 AI 系統（OCT 黃斑部疾病診斷） - AutoSegCT 放射治療自動勾勒工具 - BRAVE-AI 社區遠端健康監測 相關頁面 - FCAI Curriculum 摘要 - Alexander T Deng"
+  },
+  {
+    "slug": "steven-lin",
+    "title": "Steven Lin",
+    "type": "entity",
+    "tags": [
+      "人物",
+      "基層醫療",
+      "Stanford",
+      "醫療AI"
+    ],
+    "body": "Steven Lin 身份： MD, Physician 機構： Stanford Healthcare AI Applied Research Team, Division of Primary Care and Population Health, Stanford University School of Medicine 研究領域： 基層醫療 AI 導入、臨床文件 AI、品質改善方法 主要著作與貢獻 - A Clinician's Guide to AI: Why and How Primary Care Should Lead the Health Care AI Revolution — JABFM 2022;35:175–184. 主張基層醫療最適合領導醫療 AI 革命 - Ten ways AI will transform primary care — J Gen Intern Med 2019;34:1626–30 - From code to bedside: implementing AI using QI methods（合著）— J Gen Intern Med 2021;36:1061–6. 提出 The Stanford Method 六步驟 AI 導入方法 - Reimagining clinical documentation with AI — Mayo Clin Proc 2018;93:563–5 - The present and future of team documentation — Mayo Clin Proc 2020;95:852–5 合作機構 Amazon, AAFP, ABAIM, ABFP, Codex Health, DeepScribe, Eko Health, Google Health, Quadrant Technologies, Soap Health, STFM, UCSF, Verily（均透過 Stanford 管理的贊助研究協議） 相關頁面 - Clinician's Guide to AI 摘要 - The Stanford Method"
+  },
+  {
+    "slug": "adha",
+    "title": "Australian Digital Health Agency (ADHA)",
+    "type": "entity",
+    "tags": [
+      "組織",
+      "Australia",
+      "數位健康"
+    ],
+    "body": "Australian Digital Health Agency (ADHA) 國家： Australia 性質： 澳洲聯邦政府數位健康機構 主要貢獻 - National Nursing and Midwifery Digital Health Capability Framework (2020)（與 AIDH 合作） - National Digital Health Capability Action Plan (2020) - National Digital Health Workforce and Education Roadmap (2020) - 澳洲在全球數位健康能力框架領域最為完整，ADHA 是核心推動機構 相關頁面 - 澳洲框架摘要 - 數位健康能力"
+  },
+  {
+    "slug": "hee",
+    "title": "Health Education England (HEE)",
+    "type": "entity",
+    "tags": [
+      "組織",
+      "UK",
+      "NHS",
+      "醫學教育"
+    ],
+    "body": "Health Education England (HEE) 國家： UK 性質： NHS 人力教育與訓練機構 主要貢獻 - A Health and Care Digital Capabilities Framework (2018) — 英國最廣泛使用的醫療數位能力框架，6 大領域、4 級等級制 - 與 NHS AI Lab 合作發展 AI 人力能力 - 支持 NHS Fellowship in Clinical AI 相關頁面 - 英國框架摘要 - 數位健康能力"
+  },
+  {
+    "slug": "alexander-deng",
+    "title": "Alexander T Deng",
+    "type": "entity",
+    "tags": [
+      "人物",
+      "NHS",
+      "臨床AI教育"
+    ],
+    "body": "Alexander T Deng 身份： Dr, BMBCh MSc MRCP PGCert (Medical Education) 職位： Programme Lead, NHS Fellowship in Clinical AI 機構： Clinical Scientific Computing, Guy's and St Thomas' NHS Foundation Trust 主要貢獻 - 主導設計 NHS Fellowship in Clinical AI 課程（v3.2, Cohort 3, 2024） - 建立整合臨床訓練的 AI 人才培育路徑 相關頁面 - FCAI Curriculum 摘要 - GSTT Clinical Scientific Computing"
+  },
+  {
+    "slug": "summary-frameworks-international",
+    "title": "來源摘要：國際與多國數位能力框架",
+    "type": "summary",
+    "tags": [
+      "EU",
+      "USA",
+      "Canada",
+      "ASEAN",
+      "Singapore",
+      "UNESCO",
+      "數位能力",
+      "AI能力"
+    ],
+    "body": "來源摘要：國際與多國數位能力框架（9 份） --- 歐盟 DigComp 2.2: Digital Competence Framework for Citizens（JRC, 2022） - 五大能力領域： 資訊素養、溝通協作、數位內容創建、安全、問題解決 - 八級能力等級： Foundation (1-2) → Intermediate (3-4) → Advanced (5-6) → Highly Specialised (7-8) - 特色： 非醫療專用，但是全球最廣泛引用的公民數位能力框架，250+ 知識/技能/態度範例 - 目標： 2030 年 EU 80% 人口具備基本數位技能 --- 美國 HHS AI Strategic Plan（2025） - 四大策略目標： 1. 催化健康 AI 創新與採用 2. 促進值得信賴的 AI 開發 3. 民主化 AI 技術與資源 4. 培育 AI 賦能的人力與組織文化 - 七大 AI 應用領域： 醫學研究、醫療產品開發、醫療服務、人類服務、公共衛生、網路安全、內部營運 Digital Skills in the Health and Social Assistance Sector - 聚焦美國健康產業入門級勞工的數位技能需求 - 健康與社會服務業佔美國 1/7 勞動力 --- 加拿大 Health Informatics Professional Competencies（Digital Health Canada） - 七大領域： 資訊科學、資訊管理、技術生態系、健康科學、管理科學、臨床與健康科學、加拿大健康系統 - 三級能力分段 Digital Health Care Market Study Part 3（Competition Bureau Canada, 2024） - 加拿大數位醫療市場競爭分析 --- 東協 Assessing Digital Health Adoption in ASEAN（ASEAN-Japan Centre, 2024） - 評估東協成員國的數位健康就緒度和採用狀況 - 辨識 ASEAN 數位健康採用的挑戰與缺口 --- 新加坡 Digital Competencies for National Medical School Curriculum（2022） - 質性研究： 探索新加坡醫學院課程中的數位能力需求 - 強調國家層級的醫學數位能力教育可帶來多重效益 --- UNESCO AI Competency Framework for Teachers（2024） - 五大維度： Human-centred Mindset、Ethics of AI、AI Foundations & Applications、AI Pedagogy、AI for Professional Learning - 三級進階： Acquire → Deepen → Create - 非醫療專用但方法論可遷移至醫療培訓 AI Competency Framework for Students（2024） - 同樣三級進階架構 - 強調 AI 素養作為基本公民能力 --- 相關頁面 - 跨國框架比較分析 - 數位健康能力 - 臨床 AI 人才培育"
+  },
+  {
+    "slug": "summary-scoping-reviews-digital-competence",
+    "title": "來源摘要：數位健康能力 Scoping Reviews",
+    "type": "summary",
+    "tags": [
+      "Scoping Review",
+      "數位能力",
+      "衡量工具",
+      "文獻回顧"
+    ],
+    "body": "來源摘要：數位健康能力 Scoping Reviews（2 份） --- 1. Health Professional Digital Capabilities Frameworks: A Scoping Review 作者： Sophie Brice, Helen Almond（Swinburne University of Technology） 期刊： Journal of Multidisciplinary Healthcare 2020;13:1375-1390 分析範圍： 13 篇文獻 關鍵發現 - 辨識出 59 項能力，歸納為 13 類別 和 4 大主題 - 過度聚焦技術技能是不夠的 - 框架需要整合以人為中心的數位醫療（Person-Centred Digital Healthcare, PCDHc） 缺口 - 「孤立式」和「家長式」的數位能力辯論 - 未充分處理複雜人類行為 - 缺乏將能力與技術對齊以實現真正以人為中心照護的框架 --- 2. Measuring the Digital Competence of Health Professionals: Scoping Review 作者： Anne Mainz, Julia Nitsche, Vera Weirauch, Sven Meister（Witten/Herdecke University, Fraunhofer Institute） 分析範圍： 1,682 篇搜尋 → 46 篇納入 關鍵發現 - 醫療數位能力無統一定義 - 能力應涵蓋四個維度：技術、方法論、社會、個人 - 現有工具過度聚焦技術技能 缺口 - 缺乏經驗證的、最新的衡量工具 - 現有衡量工具統計品質差、未經驗證 - 工具無法反映醫療數位能力的全部複雜性 --- 兩份 Review 的共同結論 技術技能是必要但不充分的。 有效的數位健康能力需整合社會、個人和方法論維度。現有框架和衡量工具存在根本性的不完整。 --- 相關頁面 - 跨國框架比較分析 - 數位健康能力"
+  },
+  {
+    "slug": "summary-clinicians-guide-ai-primary-care",
+    "title": "來源摘要：A Clinician's Guide to AI — Why and How Primary Care Should Lead",
+    "type": "summary",
+    "tags": [
+      "醫療AI",
+      "基層醫療",
+      "AI導入",
+      "健康公平",
+      "品質改善"
+    ],
+    "body": "來源摘要：A Clinician's Guide to AI 作者： Steven Lin, MD（Stanford Healthcare AI Applied Research Team） 期刊： J Am Board Fam Med 2022;35:175–184 DOI： 10.3122/jabfm.2022.01.210226 --- 核心論點 基層醫療（Primary Care）是最適合領導醫療 AI 革命的專科——因為它位於醫療金字塔的底部，與醫療系統每個環節相連，且與病患和社區有深厚關係。應以同儕審查證據而非廠商行銷驅動 AI 採用。 AI 基礎定義 - AI： 電腦模仿人類行為完成任務（如 EHR 警示、臨床決策支援） - ML： 從範例中學習、持續改善（如預測模型） - DL： 模仿人腦的神經網路，可自我學習（如影像診斷） AI 改變醫療的 10 大方式 1. 風險預測與介入 2. 族群健康管理 3. 醫療諮詢與分診 4. 風險校正門診量 5. 遠端病患監測 6. 數位健康教練 7. 病歷回顧與文件 8. 診斷 9. 臨床決策 10. 診所管理 AI 的三大限制與倫理陷阱 1. Coded Bias（編碼偏見） — 資料有偏見，AI 就有偏見。部分模型對富裕白人男性更準確 2. Nongeneralizability（不可泛化性） — 模型在一個系統表現好不代表在其他系統也好；存在校準漂移 3. Profit-Driven Design（利潤驅動設計） — 以參與度為優先的演算法導致錯誤資訊傳播 基層醫療為何應領導（Starfield 4Cs） 支柱 對 AI 的意涵 ------------------- First Contact AI 在上游應用影響最大 Comprehensive PCP 可為任何 AI 用例增加價值 Coordinated PCP 是所有 AI 用例的關鍵利害關係人 Continuous 持續性照護中的 AI 最能贏得信任 基層醫療如何領導 1. 確保 AI 以人為中心 — 與技術開發者合作，圍繞真實痛點開發 2. 品質改善方法導入 AI（The Stanford Method）— 六步驟可重複方法 3. 倡導公平與可問責的 AI — 健康公平諮詢委員會、全國健康資料治理框架 相關頁面 - Steven Lin - AI 臨床評估框架 - Coded Bias - The Stanford Method - Starfield 4Cs - The Physician AI Handbook 摘要"
+  },
+  {
+    "slug": "summary-physician-ai-handbook",
+    "title": "來源摘要：The Physician AI Handbook",
+    "type": "summary",
+    "tags": [
+      "醫療AI",
+      "臨床導入",
+      "同儕審查",
+      "教科書"
+    ],
+    "body": "來源摘要：The Physician AI Handbook 作者： Bryan Tegomoh（MD, MPH, Washington University School of Medicine） 出版： 2026 年 4 月 ｜ 授權： CC BY 4.0 來源： physicianaihandbook.com --- 核心主張 臨床 AI 在真實環境中的表現，往往不如已發表的驗證研究。醫療機構應以同儕審查證據而非廠商行銷來驅動 AI 採用決策。 全書定位 一本涵蓋 19 個 ACGME 認可專科的醫師 AI 參考手冊，結構為五大部分： 1. Foundations — AI 歷史、基礎概念、臨床數據挑戰 2. Clinical Specialties — 逐專科整理同儕審查證據（放射、內科、外科、小兒、婦產、急診、重症、腫瘤、心臟、神經、精神、基層、病理、皮膚、眼科、骨科、感染、過敏免疫、外科次專） 3. Implementation — 評估框架、倫理、隱私（HIPAA）、安全、工作流程整合、法律責任 4. Practical Tools — 醫師 AI 工具箱、LLM 實務應用、臨床文件、AI 輔助研究 5. Future — 新興技術、全球健康公平、政策治理、醫療錯誤資訊、醫學教育 關鍵議題 - AI 評估框架： 提供採用 AI 工具前的系統性評估方法 - 法律責任： 探討 AI 失敗時的醫療法律歸屬 - 證據 vs 行銷： 強調以實際臨床數據驗證 AI 聲稱的表現 - 工作流程整合： 如何將 AI 嵌入現有臨床流程 相關頁面 - 醫療AI臨床導入 - AI評估框架 - Bryan Tegomoh - LLM臨床應用"
+  },
+  {
+    "slug": "summary-frameworks-australia",
+    "title": "來源摘要：澳洲數位健康能力框架與路線圖",
+    "type": "summary",
+    "tags": [
+      "Australia",
+      "數位能力",
+      "醫療人力",
+      "路線圖"
+    ],
+    "body": "來源摘要：澳洲數位健康能力框架與路線圖（8 份） 澳洲在全球數位健康能力框架領域最為完整，涵蓋全職種通用框架、專科框架、國家行動計畫、路線圖和自評工具。 --- 通用框架 Australian Digital Health Capability Framework V1.2（AIDH） - 機構： Australasian Institute of Digital Health - 目標： 所有健康產業工作者（profession-agnostic） - 四大領域： Digital Professionalism、Leadership & Advocacy、Data & Information Quality、Digital Services --- 專科框架 Capability Framework on Digital Health in Medicine（AMC, 2021） - 機構： Australian Medical Council - 目標： 醫學生、醫師 - 特色： 彌合「真實醫療服務」與「醫學教育」之間的數位落差 National Nursing and Midwifery Digital Health Capability Framework（2020） - 機構： Australian Digital Health Agency + AIDH - 目標： 護理師、助產師 Digital Health Capability Framework for Allied Health Professionals（Victoria, 2022） - 機構： Victorian Government - 目標： 聯合健康專業人員 --- 策略文件 National Digital Health Capability Action Plan（2020） - 核心信念：具備強大數位健康能力的人力最終受益的是病患 - 面對的挑戰：人口老化、消費者期望提升、從醫院轉向社區照護 National Digital Health Workforce and Education Roadmap（2020） - 機構： Australian Digital Health Agency - 153 頁的全面性人力和教育路線圖 Victoria's Digital Health Roadmap 2021-2025 - 聚焦提升維多利亞州公立醫療機構的數位成熟度 --- 工具 Digital Health Self-Evaluation Tool - DOCX 格式的自評工具，含 6 張評估表格 - 可供醫療機構進行數位能力基線調查 --- 相關頁面 - 跨國框架比較分析 - 數位健康能力"
+  },
+  {
+    "slug": "summary-fcai-clinical-ai-curriculum",
+    "title": "來源摘要：NHS Fellowship in Clinical AI — Clinical AI Curriculum v3.2",
+    "type": "summary",
+    "tags": [
+      "臨床AI",
+      "課程設計",
+      "NHS",
+      "人才培育",
+      "Fellowship"
+    ],
+    "body": "來源摘要：NHS Fellowship in Clinical AI Curriculum v3.2 作者： Alexander T Deng 等人 機構： Guy's and St Thomas' NHS Foundation Trust, Clinical Scientific Computing 年份： 2024 ｜ 支持： NHS Digital Academy --- 核心定位 為 NHS 前線臨床醫師設計的 12 個月、0.4 FTE（每週 2 天） 臨床 AI Fellowship，使醫師在不中斷臨床訓練的前提下獲取 AI 專業知識。Fellows 嵌入 NHS 站點的臨床 AI 團隊，直接開發、部署和評估 AI 模型。 五大課程主題 主題 核心學習目標 ------------------ AI Fundamentals 演算法類型、資料整理、訓練方法、效能指標（precision, recall, F1, ROC） Regulation & Standards CE/UKCA 認證、GDPR、NHS 臨床風險管理（DCB0129/0160）、法律框架 Validation & Evaluation 文獻批判評估（NICE）、本地驗證（SPIRIT-AI, CONSORT-AI）、部署後監測、偏見審核 Integration & Systems Impact IT 整合、工作流程設計、健康經濟評估、認知偏見、AI 失敗模式、可解釋性 Strategy & Culture 多學科團隊、變革管理、領導層支持、病患共同設計 四種教學方法 1. 沉浸式臨床 AI 專案 — Fellowship 核心，體驗式學習 2. 小組工作坊 — 每月一次，受邀專家授課 3. 線上學習 — KCL Innovation Scholars + 線上平台訂閱 4. 人脈網絡 — 導師制、同儕學習、卓越中心參訪 代表性專案 - AI 放射治療自動分割（Clinical Oncology） - 數位病理 AI 軟體評估（Pathology — 淋巴結微轉移偵測） - AI 輔助隱匿性舟狀骨骨折診斷（Radiology） - 眼科 AI 系統（Ophthalmology — Moorfields-DeepMind 合作） - 遠端健康監測 BRAVE-AI（Community Care — 入院風險預測） 對齊的教育框架 - HEE Digital Capabilities Framework (2018) - NHS AI Lab — Developing healthcare workers' confidence in AI (2022) - Faculty of Clinical Informatics Core Capability Framework (2020) - NHS Digital Transformation AI Capability Framework (2023) 關鍵引述 \"The NHS should create or increase the numbers of clinician, scientist, technologist and knowledge specialist posts with dedicated, accredited time...\" — The Topol Review (2019), Recommendation DM4/AIR5 相關頁面 - Alexander T Deng - GSTT Clinical Scientific Computing - 臨床 AI 人才培育 - AI 臨床評估框架 - AI 互動中的認知偏見 - AI 驗證標準"
+  },
+  {
+    "slug": "summary-frameworks-uk",
+    "title": "來源摘要：英國數位健康能力框架",
+    "type": "summary",
+    "tags": [
+      "UK",
+      "NHS",
+      "數位能力",
+      "AI能力"
+    ],
+    "body": "來源摘要：英國數位健康能力框架（2 份） 1. A Health and Care Digital Capabilities Framework（HEE, 2018） 機構： Health Education England (HEE) 目標： 所有健康與社會照護工作者 六大能力領域 1. Communication, Collaboration and Participation — 數位溝通與協作 2. Teaching, Learning and Self-Development — 教學、學習與自我發展 3. Information, Data and Content Literacies — 資訊、資料與內容素養 4. Creation, Innovation and Research — 創新與研究 5. Technical Proficiency — 技術熟練度 6. Digital Identity, Wellbeing, Safety and Security — 數位身份、福祉與安全（貫穿所有領域） 四級能力等級 - Level 1：基礎知識（「我知道…」） - Level 2：基本能力（「我能…」） - Level 3：自信且有能力（「我有信心且有能力…」） - Level 4：專家/領導（「作為專家用戶，我…」） --- 2. AI and Digital Healthcare Technologies Capability Framework（2023） 作者： Alan Davies, Angela Davies, et al.（University of Manchester） 目標： NHS 醫療人員的 AI 信心與能力 此框架專注於 AI 和數位醫療技術，是 HEE 通用框架的 AI 專項延伸，與 FCAI Curriculum 共同作為 NHS AI 人才培育的基礎。 --- 相關頁面 - 跨國框架比較分析 - 數位健康能力 - FCAI Curriculum 摘要"
+  },
+  {
+    "slug": "ai-clinical-evaluation",
+    "title": "AI 臨床評估框架",
+    "type": "concept",
+    "tags": [
+      "AI評估",
+      "臨床導入",
+      "同儕審查",
+      "醫療品質"
+    ],
+    "body": "AI 臨床評估框架 定義 在醫療機構採用 AI 工具前，以系統性方法評估其安全性、有效性、合規性與實務可行性的框架。 核心原則 - 證據驅動： 以同儕審查文獻為基礎，非廠商行銷資料 - 真實環境驗證： 已發表的驗證研究表現 ≠ 真實臨床環境表現 - 持續監測： AI 模型可能因資料漂移（data drift）而退化 評估維度 1. 臨床效能 — 敏感度、特異度、AUC 等指標在真實環境的表現 2. 安全與風險 — 失敗模式、錯誤類型、後備機制 3. 倫理與公平 — 偏見檢測、健康公平影響 4. 隱私合規 — HIPAA、台灣個資法等法規要求 5. 工作流程適配 — 與現有臨床流程的整合程度 6. 法律責任 — AI 錯誤時的責任歸屬 來源 - The Physician AI Handbook — Part III: Implementation 提供完整評估框架 - Clinician's Guide to AI — 討論 Nongeneralizability、Calibration Drift，並提出 The Stanford Method 作為 QI 導入框架 - FCAI Curriculum — Validation & Evaluation 主題涵蓋 SPIRIT-AI、CONSORT-AI、部署後監測、偏見審核方法論 相關頁面 - The Physician AI Handbook 摘要 - Clinician's Guide to AI 摘要 - FCAI Curriculum 摘要 - Coded Bias - The Stanford Method - AI 互動中的認知偏見 - AI 驗證標準"
+  },
+  {
+    "slug": "digital-health-capability",
+    "title": "數位健康能力",
+    "type": "concept",
+    "tags": [
+      "數位能力",
+      "核心概念",
+      "醫療人力"
+    ],
+    "body": "數位健康能力（Digital Health Capability） 定義 醫療人員在數位化醫療環境中，有效理解、使用和應用數位技術的綜合能力。不僅限於技術技能，還包含態度、知識、行為和判斷力。 注意：目前醫療數位能力無統一定義（Mainz et al., 2023 Scoping Review）。「Digital capability」、「digital competence」、「digital literacy」、「digital skills」等術語在不同框架中互換使用。 能力的四個維度 根據 Scoping Review 綜合歸納，完整的數位健康能力應涵蓋： 1. 技術維度 — 操作數位工具和系統的能力 2. 方法論維度 — 運用數位工具進行問題解決和決策的能力 3. 社會維度 — 在數位環境中溝通、協作和維護倫理的能力 4. 個人維度 — 對科技的態度、持續學習和數位福祉 六大共通能力領域 跨國框架分析歸納出的共通領域（詳見 跨國比較分析）： 1. 數位素養與資訊管理 2. 溝通與協作 3. 安全、隱私與倫理 4. 技術應用與問題解決 5. 創新、研究與品質改善 6. 領導與變革管理 與 AI 能力的關係 數位健康能力是 臨床 AI 能力 的基礎。AI 能力可視為數位健康能力的進階延伸，在通用數位素養之上增加： - AI 基礎概念 - AI 驗證與評估 - AI 倫理與偏見 - AI 工作流程整合 相關頁面 - 跨國框架比較分析 - 英國框架摘要 - 澳洲框架摘要 - 國際框架摘要 - Scoping Reviews 摘要 - 臨床 AI 人才培育 - AI 臨床評估框架"
+  },
+  {
+    "slug": "stanford-method",
+    "title": "The Stanford Method（AI 導入六步驟）",
+    "type": "concept",
+    "tags": [
+      "AI導入",
+      "品質改善",
+      "實施方法",
+      "Stanford"
+    ],
+    "body": "The Stanford Method（AI 導入六步驟） 定義 由 Steven Lin 等人提出的可重複、混合方法、六步驟途徑，以品質改善（QI）方法為基礎，用於在醫療場域實施 AI 解決方案。 背景 傳統研究方法通常不支援成功的 AI 導入，因為： - AI 高度依賴特定系統的資料和整合方式 - 在一個醫療系統訓練的模型可能在另一個系統表現差 - 臨床工作流程在不同專科、不同系統、不同地區間高度變異 品質改善方法的優勢在於：尋求理解而非控制真實世界的變異。 實施團隊 - PCP（主導者，熟悉 QI 方法） - 改善專家（Improvement Experts） - 臨床資訊學家（Clinical Informaticists） - 資料科學家（Data Scientists） 來源 Smith M, Sattler A, Hong G, Lin S. From code to bedside: implementing AI using quality improvement methods. J Gen Intern Med 2021;36:1061–6. 相關頁面 - Steven Lin - Clinician's Guide to AI 摘要 - AI 臨床評估框架"
+  },
+  {
+    "slug": "ai-validation-standards",
+    "title": "AI 驗證標準",
+    "type": "concept",
+    "tags": [
+      "驗證",
+      "法規",
+      "標準",
+      "醫療器材"
+    ],
+    "body": "AI 驗證標準 定義 確保醫療 AI 工具安全、有效並符合法規要求的標準化驗證流程和報告框架。 關鍵標準與框架 臨床試驗報告標準 - SPIRIT-AI — AI 介入臨床試驗的計畫書報告指南 - CONSORT-AI — AI 介入隨機對照試驗的報告指南 證據評估框架 - NICE Evidence Standards Framework — 英國 NICE 的數位健康技術證據標準 醫療器材認證 - CE/UKCA Marking — 歐盟/英國醫療器材認證 - FDA Clearance — 美國 FDA 醫療器材許可 NHS 臨床風險管理 - DCB0129 — 製造商的臨床風險管理標準 - DCB0160 — 部署機構的臨床風險管理標準 資料保護 - GDPR — 歐盟一般資料保護規則 - HIPAA — 美國健康保險可攜性與責任法 部署後監測 - 持續監測 AI 效能指標 - 偵測、報告和管理不良事件或嚴重事故 - Medical Algorithmic Audit — 系統性審核演算法在不同族群的表現差異 - 關注 Coded Bias 和 Calibration Drift 相關頁面 - FCAI Curriculum 摘要 - The Physician AI Handbook 摘要 - AI 臨床評估框架 - Coded Bias"
+  },
+  {
+    "slug": "cognitive-biases-in-ai",
+    "title": "AI 互動中的認知偏見",
+    "type": "concept",
+    "tags": [
+      "認知偏見",
+      "人因工程",
+      "臨床安全",
+      "AI導入"
+    ],
+    "body": "AI 互動中的認知偏見 定義 人類與 AI 技術互動時，認知偏見會影響對 AI 輸出的接受、拒絕和解讀方式，進而影響臨床決策品質和病患安全。 主要偏見類型 偏見 說明 臨床風險 --------------------- Automation Bias（自動化偏見） 過度信賴 AI 輸出，忽略自身判斷 接受 AI 的錯誤建議而未批判性評估 Aversion Bias（厭惡偏見） 因不信任而系統性拒絕 AI 建議 浪費 AI 帶來的正確輔助價值 Confirmation Bias（確認偏見） 傾向接受與既有信念一致的 AI 輸出 選擇性採用 AI 結果，忽略矛盾資訊 Rejection Bias（拒絕偏見） 當 AI 輸出與預期不符時傾向拒絕 忽略可能正確的非預期發現 Alert Fatigue（警報疲勞） 大量警報導致對所有警報的敏感度下降 忽略真正重要的 AI 警示 AI 失敗模式 vs 人類錯誤 AI 失敗模式與人類臨床推理錯誤本質不同： - Outlier detection failure — AI 無法辨識訓練分佈外的異常案例 - Adversarial attacks — 細微的輸入擾動導致 AI 輸出大幅改變 理解這些差異對於設計安全的人機協作工作流程至關重要。 緩解策略 - 使用者訓練：理解 AI 的能力和限制 - 工作流程設計：保留人類最終決策權 - AI 可解釋性（Explainability）：使 AI 推理過程透明化 - 定期效能監測：偵測人機互動模式異常 相關頁面 - FCAI Curriculum 摘要 - AI 臨床評估框架 - Coded Bias"
+  },
+  {
+    "slug": "starfield-4cs",
+    "title": "Starfield 4Cs（基層醫療四大支柱）",
+    "type": "concept",
+    "tags": [
+      "基層醫療",
+      "醫療框架",
+      "AI導入"
+    ],
+    "body": "Starfield 4Cs（基層醫療四大支柱） 定義 由 Dr. Barbara Starfield 提出的基層醫療四大核心功能，最初發表於 Primary Care: Concept, Evaluation, and Policy（Oxford University Press, 1992）。 四大支柱 支柱 意義 對醫療 AI 的意涵 ----------------------------- First Contact 病患進入醫療系統的第一站 AI 在上游應用影響最大，產生下游漣漪效應 Comprehensive 從搖籃到墳墓、門診到住院，幾乎什麼都做 PCP 是幾乎所有醫學領域的專家，可為任何 AI 用例增加價值 Coordinated PCP 是醫療團隊的四分衛，與每個環節相連 PCP 是所有醫療 AI 用例的關鍵利害關係人 Continuous 與病患的關係跨越數十年 持續性照護中的 AI 最能贏得信任、維持參與、改善長期結果 對醫療 AI 的啟示 Steven Lin 援引此框架論證：基層醫療以美國每年超過 5 億次就診（佔所有門診 55%），是 AI 終端用戶最大群體，因此最有資格也最有機會領導醫療 AI 革命。 相關頁面 - Steven Lin - Clinician's Guide to AI 摘要"
+  },
+  {
+    "slug": "clinical-ai-training",
+    "title": "臨床 AI 人才培育",
+    "type": "concept",
+    "tags": [
+      "人才培育",
+      "醫學教育",
+      "臨床AI",
+      "課程設計"
+    ],
+    "body": "臨床 AI 人才培育 定義 訓練臨床醫師具備 AI 專業知識，使其能在不脫離臨床工作的前提下，參與 AI 工具的開發、評估、部署和治理。 核心挑戰 - 主流學術 AI 路徑與臨床訓練無法整合（高成本、中斷臨床工作） - 大多數現有課程缺乏臨床 AI 應用的相關內容 - 臨床醫師在 AI 開發中至少扮演 9 種不同角色（Scheek et al., 2021） 代表性培育模式 NHS Fellowship in Clinical AI（英國） - 模式： 12 個月、0.4 FTE，嵌入 NHS 臨床 AI 團隊 - 課程： 5 大主題（AI 基礎、法規標準、驗證評估、系統整合、策略文化） - 教學： 沉浸式專案 + 工作坊 + 線上學習 + 人脈網絡 - 來源： FCAI Curriculum v3.2 美國培訓路徑 - ACGME Clinical Informatics Fellowship - American Board of AI in Medicine (ABAIM) 認證 - AMIA 10×10 虛擬課程 - 來源： Clinician's Guide to AI 自學參考資源 - The Physician AI Handbook（CC BY 4.0，19 專科證據整理） 關鍵能力領域（跨來源綜合） 能力 FCAI Curriculum Clinician's Guide Physician AI Handbook ------:-::-::-: AI/ML 基礎概念 ✓ ✓ ✓ 法規與合規 ✓ — ✓ 驗證與評估 ✓ ✓ ✓ 偏見與公平 ✓ ✓ ✓ 工作流程整合 ✓ ✓ ✓ 品質改善方法 — ✓ — 策略與變革管理 ✓ — — 政策支持 - The Topol Review (2019)： 呼籲 NHS 建立具有專門認證時間的臨床 AI 職位 - Quintuple Aim： AI 導入應支持品質、體驗、成本、公平、人員福祉五大目標 相關頁面 - FCAI Curriculum 摘要 - Clinician's Guide to AI 摘要 - The Physician AI Handbook 摘要 - AI 臨床評估框架 - The Stanford Method - 數位健康能力 - 跨國框架比較分析"
+  },
+  {
+    "slug": "coded-bias",
+    "title": "Coded Bias（編碼偏見）",
+    "type": "concept",
+    "tags": [
+      "AI偏見",
+      "健康公平",
+      "演算法正義",
+      "倫理"
+    ],
+    "body": "Coded Bias（編碼偏見） 定義 自動化系統並非天生中立——它們反映創造者的優先順序、偏好和偏見。如果訓練資料有偏見，AI 產出也會有偏見。 關鍵證據 - 臉部辨識偏見（2018）： Buolamwini & Gebru 研究發現商用臉部辨識工具對男性表現優於女性，對淺膚色優於深膚色。2020 年 George Floyd 事件後，IBM、Microsoft、Amazon 宣布停止向執法機構銷售臉部辨識軟體。 - 醫療預測模型偏見： 部分模型對富裕白人男性病患更準確，因訓練資料來自該族群。EHR 資料中弱勢族群的不平等就醫紀錄，導致模型低估其風險（Obermeyer et al., Science 2019）。 - 自殺風險預測偏見： 部分模型存在種族/族裔表現差異（Coley et al., JAMA Psychiatry 2021）。 緩解策略 - 在預測模型中加入社會決定因素資料（鄰里、環境、生活方式、語言、交通、收入、社會支持、教育） - 建立健康公平諮詢委員會審核和校正偏見 - 種族正義需要演算法正義（Dr. Joy Buolamwini, Algorithmic Justice League） 相關頁面 - AI 臨床評估框架 - AI 互動中的認知偏見 - AI 驗證標準 - Clinician's Guide to AI 摘要 - The Physician AI Handbook 摘要 - FCAI Curriculum 摘要"
+  },
+  {
+    "slug": "analysis-global-digital-health-capability-frameworks",
+    "title": "跨國數位健康能力框架比較分析",
+    "type": "analysis",
+    "tags": [
+      "數位能力",
+      "框架比較",
+      "跨國分析",
+      "醫療人力",
+      "AI能力"
+    ],
+    "body": "跨國數位健康能力框架比較分析 本分析綜合 21 份文獻，涵蓋 8 個國家/區域的數位健康能力框架、策略計畫、路線圖及學術研究。 --- 一、框架總覽 1.1 依國家/區域分類 國家/區域 文獻數 代表性框架 ------------------------------ UK 2 HEE Digital Capabilities Framework (2018)、NHS AI & Digital Healthcare Technologies Capability Framework (2023) Australia 7 Australian Digital Health Capability Framework V1.2、AMC Digital Health in Medicine、Nursing & Midwifery Framework、Allied Health Framework、National Action Plan、Workforce Roadmap、Victoria Roadmap EU 1 DigComp 2.2 (2022) USA 2 HHS AI Strategic Plan (2025)、Digital Skills in Health Sector Canada 2 Digital Health Canada Health Informatics Competencies、DHC Market Study ASEAN 1 Assessing Digital Health Adoption in ASEAN (2024) Singapore 1 Digital Competencies for National Medical School Curriculum International 2 UNESCO AI Competency Framework for Students & Teachers 學術研究 3 2 份 Scoping Reviews + 1 份新加坡質性研究 1.2 依文件類型分類 類型 數量 文件 ------------------ 能力框架（Framework） 10 UK HEE、NHS AI、AU Nursing、AU Allied Health、AU General、AU Medicine (AMC)、CA Health Informatics、EU DigComp、UNESCO Students、UNESCO Teachers 策略計畫/路線圖 4 US HHS AI Plan、AU Workforce Roadmap、AU Action Plan、Victoria Roadmap 報告/研究 5 US Digital Skills、ASEAN Assessment、CA Market Study、2 份 Scoping Reviews 學術論文 2 Singapore Curriculum、Scoping Review (Mainz) 工具 1 AU Self-Evaluation Tool --- 二、核心能力領域比較 2.1 跨框架共通能力領域 綜合所有框架，歸納出 六大共通能力領域： 能力領域 UK HEE AU General AU Medicine EU DigComp NHS AI UNESCO ---------:------::----------::-----------::----------::------::------: 1. 數位素養與資訊管理 ✓ ✓ ✓ ✓ ✓ ✓ 2. 溝通與協作 ✓ ✓ ✓ ✓ — ✓ 3. 安全、隱私與倫理 ✓ ✓ ✓ ✓ ✓ ✓ 4. 技術應用與問題解決 ✓ ✓ ✓ ✓ ✓ ✓ 5. 創新、研究與品質改善 ✓ ✓ ✓ — ✓ ✓ 6. 領導與變革管理 ✓ ✓ ✓ — ✓ —"
+  }
+]

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>來源摘要：國際與多國數位能力框架 — LLM Wiki</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="topnav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">
+        <span class="brand-icon">📚</span> LLM Wiki
+      </a>
+      <div class="search-wrapper">
+        <input type="text" id="search-input" placeholder="搜尋知識庫…" autocomplete="off">
+        <div id="search-results" class="search-dropdown"></div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-section">
+        <h3>知識主軸</h3>
+        <ul class="nav-list">
+          <li><a href="index.html#axis-1">數位健康能力框架</a></li>
+          <li><a href="index.html#axis-2">醫療 AI 導入與評估</a></li>
+          <li><a href="index.html#axis-3">臨床 AI 人才培育</a></li>
+          <li><a href="index.html#axis-4">策略與政策</a></li>
+        </ul>
+      </div>
+      <div class="sidebar-section">
+        <h3>頁面分類</h3>
+        <ul class="nav-list">
+          <li><a href="type/analysis.html">📊 分析</a></li>
+          <li><a href="type/concept.html">💡 概念</a></li>
+          <li><a href="type/entity.html">👤 實體</a></li>
+          <li><a href="type/summary.html">📄 摘要</a></li>
+        </ul>
+      </div>
+      <div class="sidebar-section">
+        <h3>關鍵詞</h3>
+        <div id="tag-cloud" class="tag-cloud"><a href="tag/數位能力.html" class="tag-pill" data-tag="數位能力">數位能力 <small>(6)</small></a>
+<a href="tag/NHS.html" class="tag-pill" data-tag="NHS">NHS <small>(5)</small></a>
+<a href="tag/AI導入.html" class="tag-pill" data-tag="AI導入">AI導入 <small>(4)</small></a>
+<a href="tag/人物.html" class="tag-pill" data-tag="人物">人物 <small>(3)</small></a>
+<a href="tag/組織.html" class="tag-pill" data-tag="組織">組織 <small>(3)</small></a>
+<a href="tag/臨床AI.html" class="tag-pill" data-tag="臨床AI">臨床AI <small>(3)</small></a>
+<a href="tag/基層醫療.html" class="tag-pill" data-tag="基層醫療">基層醫療 <small>(3)</small></a>
+<a href="tag/醫療AI.html" class="tag-pill" data-tag="醫療AI">醫療AI <small>(3)</small></a>
+<a href="tag/AI能力.html" class="tag-pill" data-tag="AI能力">AI能力 <small>(3)</small></a>
+<a href="tag/醫療人力.html" class="tag-pill" data-tag="醫療人力">醫療人力 <small>(3)</small></a>
+<a href="tag/Stanford.html" class="tag-pill" data-tag="Stanford">Stanford <small>(2)</small></a>
+<a href="tag/Australia.html" class="tag-pill" data-tag="Australia">Australia <small>(2)</small></a>
+<a href="tag/UK.html" class="tag-pill" data-tag="UK">UK <small>(2)</small></a>
+<a href="tag/醫學教育.html" class="tag-pill" data-tag="醫學教育">醫學教育 <small>(2)</small></a>
+<a href="tag/健康公平.html" class="tag-pill" data-tag="健康公平">健康公平 <small>(2)</small></a>
+<a href="tag/品質改善.html" class="tag-pill" data-tag="品質改善">品質改善 <small>(2)</small></a>
+<a href="tag/臨床導入.html" class="tag-pill" data-tag="臨床導入">臨床導入 <small>(2)</small></a>
+<a href="tag/同儕審查.html" class="tag-pill" data-tag="同儕審查">同儕審查 <small>(2)</small></a>
+<a href="tag/課程設計.html" class="tag-pill" data-tag="課程設計">課程設計 <small>(2)</small></a>
+<a href="tag/人才培育.html" class="tag-pill" data-tag="人才培育">人才培育 <small>(2)</small></a>
+<a href="tag/醫師科學家.html" class="tag-pill" data-tag="醫師科學家">醫師科學家 <small>(1)</small></a>
+<a href="tag/流行病學.html" class="tag-pill" data-tag="流行病學">流行病學 <small>(1)</small></a>
+<a href="tag/數位健康.html" class="tag-pill" data-tag="數位健康">數位健康 <small>(1)</small></a>
+<a href="tag/臨床AI教育.html" class="tag-pill" data-tag="臨床AI教育">臨床AI教育 <small>(1)</small></a>
+<a href="tag/EU.html" class="tag-pill" data-tag="EU">EU <small>(1)</small></a>
+<a href="tag/USA.html" class="tag-pill" data-tag="USA">USA <small>(1)</small></a>
+<a href="tag/Canada.html" class="tag-pill" data-tag="Canada">Canada <small>(1)</small></a>
+<a href="tag/ASEAN.html" class="tag-pill" data-tag="ASEAN">ASEAN <small>(1)</small></a>
+<a href="tag/Singapore.html" class="tag-pill" data-tag="Singapore">Singapore <small>(1)</small></a>
+<a href="tag/UNESCO.html" class="tag-pill" data-tag="UNESCO">UNESCO <small>(1)</small></a>
+<a href="tag/Scoping Review.html" class="tag-pill" data-tag="Scoping Review">Scoping Review <small>(1)</small></a>
+<a href="tag/衡量工具.html" class="tag-pill" data-tag="衡量工具">衡量工具 <small>(1)</small></a>
+<a href="tag/文獻回顧.html" class="tag-pill" data-tag="文獻回顧">文獻回顧 <small>(1)</small></a>
+<a href="tag/教科書.html" class="tag-pill" data-tag="教科書">教科書 <small>(1)</small></a>
+<a href="tag/路線圖.html" class="tag-pill" data-tag="路線圖">路線圖 <small>(1)</small></a>
+<a href="tag/Fellowship.html" class="tag-pill" data-tag="Fellowship">Fellowship <small>(1)</small></a>
+<a href="tag/AI評估.html" class="tag-pill" data-tag="AI評估">AI評估 <small>(1)</small></a>
+<a href="tag/醫療品質.html" class="tag-pill" data-tag="醫療品質">醫療品質 <small>(1)</small></a>
+<a href="tag/核心概念.html" class="tag-pill" data-tag="核心概念">核心概念 <small>(1)</small></a>
+<a href="tag/實施方法.html" class="tag-pill" data-tag="實施方法">實施方法 <small>(1)</small></a>
+<a href="tag/驗證.html" class="tag-pill" data-tag="驗證">驗證 <small>(1)</small></a>
+<a href="tag/法規.html" class="tag-pill" data-tag="法規">法規 <small>(1)</small></a>
+<a href="tag/標準.html" class="tag-pill" data-tag="標準">標準 <small>(1)</small></a>
+<a href="tag/醫療器材.html" class="tag-pill" data-tag="醫療器材">醫療器材 <small>(1)</small></a>
+<a href="tag/認知偏見.html" class="tag-pill" data-tag="認知偏見">認知偏見 <small>(1)</small></a>
+<a href="tag/人因工程.html" class="tag-pill" data-tag="人因工程">人因工程 <small>(1)</small></a>
+<a href="tag/臨床安全.html" class="tag-pill" data-tag="臨床安全">臨床安全 <small>(1)</small></a>
+<a href="tag/醫療框架.html" class="tag-pill" data-tag="醫療框架">醫療框架 <small>(1)</small></a>
+<a href="tag/AI偏見.html" class="tag-pill" data-tag="AI偏見">AI偏見 <small>(1)</small></a>
+<a href="tag/演算法正義.html" class="tag-pill" data-tag="演算法正義">演算法正義 <small>(1)</small></a>
+<a href="tag/倫理.html" class="tag-pill" data-tag="倫理">倫理 <small>(1)</small></a>
+<a href="tag/框架比較.html" class="tag-pill" data-tag="框架比較">框架比較 <small>(1)</small></a>
+<a href="tag/跨國分析.html" class="tag-pill" data-tag="跨國分析">跨國分析 <small>(1)</small></a></div>
+      </div>
+    </aside>
+
+    <main class="content">
+      <article class="wiki-page">
+  <header class="page-header">
+    <span class="type-badge type-summary">摘要</span>
+    <h1>來源摘要：國際與多國數位能力框架</h1>
+    <div class="page-meta">
+      <span>建立：2026-04-14</span>
+      <span>更新：2026-04-14</span>
+    </div>
+    <div class="page-tags">
+      <a href="tag/EU.html" class="tag-pill">EU</a> <a href="tag/USA.html" class="tag-pill">USA</a> <a href="tag/Canada.html" class="tag-pill">Canada</a> <a href="tag/ASEAN.html" class="tag-pill">ASEAN</a> <a href="tag/Singapore.html" class="tag-pill">Singapore</a> <a href="tag/UNESCO.html" class="tag-pill">UNESCO</a> <a href="tag/數位能力.html" class="tag-pill">數位能力</a> <a href="tag/AI能力.html" class="tag-pill">AI能力</a>
+    </div>
+  </header>
+
+  <div class="page-body">
+    <h1 id="9">來源摘要：國際與多國數位能力框架（9 份）</h1>
+<hr />
+<h2 id="_1">歐盟</h2>
+<h3 id="digcomp-22-digital-competence-framework-for-citizensjrc-2022">DigComp 2.2: Digital Competence Framework for Citizens（JRC, 2022）</h3>
+<ul>
+<li><strong>五大能力領域：</strong> 資訊素養、溝通協作、數位內容創建、安全、問題解決</li>
+<li><strong>八級能力等級：</strong> Foundation (1-2) → Intermediate (3-4) → Advanced (5-6) → Highly Specialised (7-8)</li>
+<li><strong>特色：</strong> 非醫療專用，但是全球最廣泛引用的公民數位能力框架，250+ 知識/技能/態度範例</li>
+<li><strong>目標：</strong> 2030 年 EU 80% 人口具備基本數位技能</li>
+</ul>
+<hr />
+<h2 id="_2">美國</h2>
+<h3 id="hhs-ai-strategic-plan2025">HHS AI Strategic Plan（2025）</h3>
+<ul>
+<li><strong>四大策略目標：</strong></li>
+<li>催化健康 AI 創新與採用</li>
+<li>促進值得信賴的 AI 開發</li>
+<li>民主化 AI 技術與資源</li>
+<li>培育 AI 賦能的人力與組織文化</li>
+<li><strong>七大 AI 應用領域：</strong> 醫學研究、醫療產品開發、醫療服務、人類服務、公共衛生、網路安全、內部營運</li>
+</ul>
+<h3 id="digital-skills-in-the-health-and-social-assistance-sector">Digital Skills in the Health and Social Assistance Sector</h3>
+<ul>
+<li>聚焦美國健康產業入門級勞工的數位技能需求</li>
+<li>健康與社會服務業佔美國 1/7 勞動力</li>
+</ul>
+<hr />
+<h2 id="_3">加拿大</h2>
+<h3 id="health-informatics-professional-competenciesdigital-health-canada">Health Informatics Professional Competencies（Digital Health Canada）</h3>
+<ul>
+<li><strong>七大領域：</strong> 資訊科學、資訊管理、技術生態系、健康科學、管理科學、臨床與健康科學、加拿大健康系統</li>
+<li>三級能力分段</li>
+</ul>
+<h3 id="digital-health-care-market-study-part-3competition-bureau-canada-2024">Digital Health Care Market Study Part 3（Competition Bureau Canada, 2024）</h3>
+<ul>
+<li>加拿大數位醫療市場競爭分析</li>
+</ul>
+<hr />
+<h2 id="_4">東協</h2>
+<h3 id="assessing-digital-health-adoption-in-aseanasean-japan-centre-2024">Assessing Digital Health Adoption in ASEAN（ASEAN-Japan Centre, 2024）</h3>
+<ul>
+<li>評估東協成員國的數位健康就緒度和採用狀況</li>
+<li>辨識 ASEAN 數位健康採用的挑戰與缺口</li>
+</ul>
+<hr />
+<h2 id="_5">新加坡</h2>
+<h3 id="digital-competencies-for-national-medical-school-curriculum2022">Digital Competencies for National Medical School Curriculum（2022）</h3>
+<ul>
+<li><strong>質性研究：</strong> 探索新加坡醫學院課程中的數位能力需求</li>
+<li>強調國家層級的醫學數位能力教育可帶來多重效益</li>
+</ul>
+<hr />
+<h2 id="unesco">UNESCO</h2>
+<h3 id="ai-competency-framework-for-teachers2024">AI Competency Framework for Teachers（2024）</h3>
+<ul>
+<li><strong>五大維度：</strong> Human-centred Mindset、Ethics of AI、AI Foundations &amp; Applications、AI Pedagogy、AI for Professional Learning</li>
+<li><strong>三級進階：</strong> Acquire → Deepen → Create</li>
+<li>非醫療專用但方法論可遷移至醫療培訓</li>
+</ul>
+<h3 id="ai-competency-framework-for-students2024">AI Competency Framework for Students（2024）</h3>
+<ul>
+<li>同樣三級進階架構</li>
+<li>強調 AI 素養作為基本公民能力</li>
+</ul>
+<hr />
+<h2 id="_6">相關頁面</h2>
+<ul>
+<li><a href="analysis-global-digital-health-capability-frameworks.html" class="wikilink">跨國框架比較分析</a></li>
+<li><a href="digital-health-capability.html" class="wikilink">數位健康能力</a></li>
+<li><a href="clinical-ai-training.html" class="wikilink">臨床 AI 人才培育</a></li>
+</ul>
+  </div>
+
+  <div class="backlinks"><h2>🔗 反向連結</h2><ul><li><a href="digital-health-capability.html" class="wikilink">數位健康能力</a></li></ul></div>
+
+  <div class="sources-section"><h2>📎 來源</h2><ul><li>raw/papers/eu-digcomp-2.2-digital-competence-framework.md</li><li>raw/papers/us-hhs-ai-strategic-plan.md</li><li>raw/papers/us-digital-skills-health-sector.md</li><li>raw/papers/ca-health-informatics-professional-competencies.md</li><li>raw/papers/ca-dhc-market-study-part3.md</li><li>raw/papers/asean-digital-health-adoption-assessment.md</li><li>raw/papers/sg-digital-competencies-medical-curriculum.md</li><li>raw/papers/unesco-ai-competency-framework-students.md</li><li>raw/papers/unesco-ai-competency-framework-teachers.md</li></ul></div>
+</article>
+
+    </main>
+  </div>
+
+  <footer>
+    <p>LLM Wiki — 持續更新的醫療 AI 知識庫 · 最後建置：2026-04-13 17:05</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
