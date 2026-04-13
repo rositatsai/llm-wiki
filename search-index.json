@@ -93,7 +93,7 @@
       "衡量工具",
       "文獻回顧"
     ],
-    "body": "來源摘要：數位健康能力 Scoping Reviews（2 份） --- 1. Health Professional Digital Capabilities Frameworks: A Scoping Review 作者： Sophie Brice, Helen Almond（Swinburne University of Technology） 期刊： Journal of Multidisciplinary Healthcare 2020;13:1375-1390 分析範圍： 13 篇文獻 關鍵發現 - 辨識出 59 項能力，歸納為 13 類別 和 4 大主題 - 過度聚焦技術技能是不夠的 - 框架需要整合以人為中心的數位醫療（Person-Centred Digital Healthcare, PCDHc） 缺口 - 「孤立式」和「家長式」的數位能力辯論 - 未充分處理複雜人類行為 - 缺乏將能力與技術對齊以實現真正以人為中心照護的框架 --- 2. Measuring the Digital Competence of Health Professionals: Scoping Review 作者： Anne Mainz, Julia Nitsche, Vera Weirauch, Sven Meister（Witten/Herdecke University, Fraunhofer Institute） 分析範圍： 1,682 篇搜尋 → 46 篇納入 關鍵發現 - 醫療數位能力無統一定義 - 能力應涵蓋四個維度：技術、方法論、社會、個人 - 現有工具過度聚焦技術技能 缺口 - 缺乏經驗證的、最新的衡量工具 - 現有衡量工具統計品質差、未經驗證 - 工具無法反映醫療數位能力的全部複雜性 --- 兩份 Review 的共同結論 技術技能是必要但不充分的。 有效的數位健康能力需整合社會、個人和方法論維度。現有框架和衡量工具存在根本性的不完整。 --- 相關頁面 - 跨國框架比較分析 - 數位健康能力"
+    "body": "來源摘要：數位健康能力 Scoping Reviews（2 份） --- 1. Health Professional Digital Capabilities Frameworks: A Scoping Review 作者： Sophie Brice, Helen Almond（Swinburne University of Technology） 期刊： Journal of Multidisciplinary Healthcare 2020;13:1375-1390 分析範圍： 13 篇文獻 關鍵發現 - 辨識出 59 項能力，歸納為 13 類別 和 4 大主題 - 過度聚焦技術技能是不夠的 - 框架需要整合以人為中心的數位醫療（Person-Centred Digital Healthcare, PCDHc） 缺口 - 「孤立式」和「家長式」的數位能力辯論 - 未充分處理複雜人類行為 - 缺乏將能力與技術對齊以實現真正以人為中心照護的框架 --- 2. Measuring the Digital Competence of Health Professionals: Scoping Review 作者： Anne Mainz, Julia Nitsche, Vera Weirauch, Sven Meister（Witten/Herdecke University, Fraunhofer Institute） 分析範圍： 1,682 篇搜尋 → 46 篇納入 關鍵發現 - 醫療數位能力無統一定義 - 能力應涵蓋四個維度：技術、方法論、社會、個人 - 現有工具過度聚焦技術技能 缺口 - 缺乏經驗證的、最新的衡量工具 - 現有衡量工具統計品質差、未經驗證 - 工具無法反映醫療數位能力的全部複雜性 --- 兩份 Review 的共同結論 技術技能是必要但不充分的。 有效的數位健康能力需整合社會、個人和方法論維度。現有框架和衡量工具存在根本性的不完整。 --- 相關頁面 - 跨國框架比較分析 - 數位健康能力 - 數位準備度系統性回顧 (Alotaibi 2025)"
   },
   {
     "slug": "summary-clinicians-guide-ai-primary-care",
@@ -146,6 +146,19 @@
     "body": "來源摘要：NHS Fellowship in Clinical AI Curriculum v3.2 作者： Alexander T Deng 等人 機構： Guy's and St Thomas' NHS Foundation Trust, Clinical Scientific Computing 年份： 2024 ｜ 支持： NHS Digital Academy --- 核心定位 為 NHS 前線臨床醫師設計的 12 個月、0.4 FTE（每週 2 天） 臨床 AI Fellowship，使醫師在不中斷臨床訓練的前提下獲取 AI 專業知識。Fellows 嵌入 NHS 站點的臨床 AI 團隊，直接開發、部署和評估 AI 模型。 五大課程主題 主題 核心學習目標 ------------------ AI Fundamentals 演算法類型、資料整理、訓練方法、效能指標（precision, recall, F1, ROC） Regulation & Standards CE/UKCA 認證、GDPR、NHS 臨床風險管理（DCB0129/0160）、法律框架 Validation & Evaluation 文獻批判評估（NICE）、本地驗證（SPIRIT-AI, CONSORT-AI）、部署後監測、偏見審核 Integration & Systems Impact IT 整合、工作流程設計、健康經濟評估、認知偏見、AI 失敗模式、可解釋性 Strategy & Culture 多學科團隊、變革管理、領導層支持、病患共同設計 四種教學方法 1. 沉浸式臨床 AI 專案 — Fellowship 核心，體驗式學習 2. 小組工作坊 — 每月一次，受邀專家授課 3. 線上學習 — KCL Innovation Scholars + 線上平台訂閱 4. 人脈網絡 — 導師制、同儕學習、卓越中心參訪 代表性專案 - AI 放射治療自動分割（Clinical Oncology） - 數位病理 AI 軟體評估（Pathology — 淋巴結微轉移偵測） - AI 輔助隱匿性舟狀骨骨折診斷（Radiology） - 眼科 AI 系統（Ophthalmology — Moorfields-DeepMind 合作） - 遠端健康監測 BRAVE-AI（Community Care — 入院風險預測） 對齊的教育框架 - HEE Digital Capabilities Framework (2018) - NHS AI Lab — Developing healthcare workers' confidence in AI (2022) - Faculty of Clinical Informatics Core Capability Framework (2020) - NHS Digital Transformation AI Capability Framework (2023) 關鍵引述 \"The NHS should create or increase the numbers of clinician, scientist, technologist and knowledge specialist posts with dedicated, accredited time...\" — The Topol Review (2019), Recommendation DM4/AIR5 相關頁面 - Alexander T Deng - GSTT Clinical Scientific Computing - 臨床 AI 人才培育 - AI 臨床評估框架 - AI 互動中的認知偏見 - AI 驗證標準"
   },
   {
+    "slug": "summary-enhancing-digital-readiness-capability",
+    "title": "Enhancing Digital Readiness and Capability in Healthcare (Alotaibi et al., 2025)",
+    "type": "summary",
+    "tags": [
+      "數位能力",
+      "文獻回顧",
+      "醫療人力",
+      "AI導入",
+      "醫學教育"
+    ],
+    "body": "Enhancing Digital Readiness and Capability in Healthcare 來源： Alotaibi, N., Brown Wilson, C., & Traynor, M. (2025). BMC Health Services Research, 25:500. DOI： 10.1186/s12913-025-12663-3 類型： Systematic Review（混合方法） 研究目的 識別提升醫療專業人員數位準備度和數位能力的介入措施，理解障礙與促進因素。 方法論 - 依循 JBI 指南的混合方法系統性回顧 - 搜索五大資料庫（CINAHL Plus, MEDLINE, EMBASE, PsychINFO, Web of Science） - 使用 UTAUT（Unified Theory of Acceptance and Use of Technology） 框架分析 - 品質評估：MMAT (2018) - PROSPERO 註冊：CRD42023461309 - 最終納入 21 篇研究（2017–2023），排除 7 篇低品質研究 核心發現：UTAUT 四大構面 1. Performance Expectancy（績效期望）— 7 篇研究 感知有用性是技術接受的關鍵驅動力。當醫療專業人員相信技術能提升工作績效，採用意願顯著提高。能力和動機均有正面影響。 2. Effort Expectancy（努力期望）— 3 篇研究 使用容易度是技術接受的重要因素。多重登入、系統複雜性是主要障礙。資訊素養對努力期望有正面影響。 3. Social Influence（社會影響）— 2 篇研究 同儕激勵、共同決策、以患者為中心的照護能建立感知價值並推動團隊擁抱技術。 4. Facilitating Conditions（促進條件）— 最多研究涉及 - 訓練不足（8 篇）：數位健康訓練不足導致基本數位能力低落；性別（男性能力高 3.9 倍）、教育程度、年齡均有影響 - 基礎設施（5 篇）：硬體故障、軟體缺陷、隱私與安全疑慮顯著影響接受度 障礙與促進因素對照 障礙 促進因素 --------------- 訓練不足 專業數位健康訓練 基礎設施缺陷 組織與技術支持 系統複雜性/多重登入 易用性設計 隱私與安全疑慮 信任建立與數據驗證 抗拒變化 社會影響與共同決策 數位技能差距 依素養程度客製化訓練 與知識庫的連結 - 本文的數位準備度概念直接對應 數位健康能力 的定義 - UTAUT 框架可補充 跨國框架比較分析 中缺少的「技術採用理論」視角 - 「促進條件」中的訓練議題與 臨床 AI 人才培育 高度相關 - 障礙與促進因素的發現可應用於 AI 臨床評估框架 中的工作流程整合維度 - 與 Scoping Review 摘要 中的衡量缺口發現互補 相關頁面 - 數位健康能力 - 臨床 AI 人才培育 - 跨國框架比較分析 - Scoping Reviews 摘要 - AI 臨床評估框架"
+  },
+  {
     "slug": "summary-frameworks-uk",
     "title": "來源摘要：英國數位健康能力框架",
     "type": "summary",
@@ -178,7 +191,7 @@
       "核心概念",
       "醫療人力"
     ],
-    "body": "數位健康能力（Digital Health Capability） 定義 醫療人員在數位化醫療環境中，有效理解、使用和應用數位技術的綜合能力。不僅限於技術技能，還包含態度、知識、行為和判斷力。 注意：目前醫療數位能力無統一定義（Mainz et al., 2023 Scoping Review）。「Digital capability」、「digital competence」、「digital literacy」、「digital skills」等術語在不同框架中互換使用。 能力的四個維度 根據 Scoping Review 綜合歸納，完整的數位健康能力應涵蓋： 1. 技術維度 — 操作數位工具和系統的能力 2. 方法論維度 — 運用數位工具進行問題解決和決策的能力 3. 社會維度 — 在數位環境中溝通、協作和維護倫理的能力 4. 個人維度 — 對科技的態度、持續學習和數位福祉 六大共通能力領域 跨國框架分析歸納出的共通領域（詳見 跨國比較分析）： 1. 數位素養與資訊管理 2. 溝通與協作 3. 安全、隱私與倫理 4. 技術應用與問題解決 5. 創新、研究與品質改善 6. 領導與變革管理 與 AI 能力的關係 數位健康能力是 臨床 AI 能力 的基礎。AI 能力可視為數位健康能力的進階延伸，在通用數位素養之上增加： - AI 基礎概念 - AI 驗證與評估 - AI 倫理與偏見 - AI 工作流程整合 相關頁面 - 跨國框架比較分析 - 英國框架摘要 - 澳洲框架摘要 - 國際框架摘要 - Scoping Reviews 摘要 - 臨床 AI 人才培育 - AI 臨床評估框架"
+    "body": "數位健康能力（Digital Health Capability） 定義 醫療人員在數位化醫療環境中，有效理解、使用和應用數位技術的綜合能力。不僅限於技術技能，還包含態度、知識、行為和判斷力。 注意：目前醫療數位能力無統一定義（Mainz et al., 2023 Scoping Review）。「Digital capability」、「digital competence」、「digital literacy」、「digital skills」等術語在不同框架中互換使用。 能力的四個維度 根據 Scoping Review 綜合歸納，完整的數位健康能力應涵蓋： 1. 技術維度 — 操作數位工具和系統的能力 2. 方法論維度 — 運用數位工具進行問題解決和決策的能力 3. 社會維度 — 在數位環境中溝通、協作和維護倫理的能力 4. 個人維度 — 對科技的態度、持續學習和數位福祉 六大共通能力領域 跨國框架分析歸納出的共通領域（詳見 跨國比較分析）： 1. 數位素養與資訊管理 2. 溝通與協作 3. 安全、隱私與倫理 4. 技術應用與問題解決 5. 創新、研究與品質改善 6. 領導與變革管理 與 AI 能力的關係 數位健康能力是 臨床 AI 能力 的基礎。AI 能力可視為數位健康能力的進階延伸，在通用數位素養之上增加： - AI 基礎概念 - AI 驗證與評估 - AI 倫理與偏見 - AI 工作流程整合 數位準備度的障礙與促進因素 Alotaibi et al. (2025) 系統性回顧以 UTAUT 框架分析 21 篇研究，發現影響醫療人員數位能力的四大因素：績效期望、努力期望、社會影響、促進條件。訓練不足和基礎設施缺陷是最主要障礙，而感知有用性和組織支持則是關鍵促進因素。詳見 Alotaibi et al. (2025) 摘要。 相關頁面 - 跨國框架比較分析 - 英國框架摘要 - 澳洲框架摘要 - 國際框架摘要 - Scoping Reviews 摘要 - 數位準備度系統性回顧 (Alotaibi 2025) - 臨床 AI 人才培育 - AI 臨床評估框架"
   },
   {
     "slug": "stanford-method",
@@ -237,7 +250,7 @@
       "臨床AI",
       "課程設計"
     ],
-    "body": "臨床 AI 人才培育 定義 訓練臨床醫師具備 AI 專業知識，使其能在不脫離臨床工作的前提下，參與 AI 工具的開發、評估、部署和治理。 核心挑戰 - 主流學術 AI 路徑與臨床訓練無法整合（高成本、中斷臨床工作） - 大多數現有課程缺乏臨床 AI 應用的相關內容 - 臨床醫師在 AI 開發中至少扮演 9 種不同角色（Scheek et al., 2021） 代表性培育模式 NHS Fellowship in Clinical AI（英國） - 模式： 12 個月、0.4 FTE，嵌入 NHS 臨床 AI 團隊 - 課程： 5 大主題（AI 基礎、法規標準、驗證評估、系統整合、策略文化） - 教學： 沉浸式專案 + 工作坊 + 線上學習 + 人脈網絡 - 來源： FCAI Curriculum v3.2 美國培訓路徑 - ACGME Clinical Informatics Fellowship - American Board of AI in Medicine (ABAIM) 認證 - AMIA 10×10 虛擬課程 - 來源： Clinician's Guide to AI 自學參考資源 - The Physician AI Handbook（CC BY 4.0，19 專科證據整理） 關鍵能力領域（跨來源綜合） 能力 FCAI Curriculum Clinician's Guide Physician AI Handbook ------:-::-::-: AI/ML 基礎概念 ✓ ✓ ✓ 法規與合規 ✓ — ✓ 驗證與評估 ✓ ✓ ✓ 偏見與公平 ✓ ✓ ✓ 工作流程整合 ✓ ✓ ✓ 品質改善方法 — ✓ — 策略與變革管理 ✓ — — 政策支持 - The Topol Review (2019)： 呼籲 NHS 建立具有專門認證時間的臨床 AI 職位 - Quintuple Aim： AI 導入應支持品質、體驗、成本、公平、人員福祉五大目標 相關頁面 - FCAI Curriculum 摘要 - Clinician's Guide to AI 摘要 - The Physician AI Handbook 摘要 - AI 臨床評估框架 - The Stanford Method - 數位健康能力 - 跨國框架比較分析"
+    "body": "臨床 AI 人才培育 定義 訓練臨床醫師具備 AI 專業知識，使其能在不脫離臨床工作的前提下，參與 AI 工具的開發、評估、部署和治理。 核心挑戰 - 主流學術 AI 路徑與臨床訓練無法整合（高成本、中斷臨床工作） - 大多數現有課程缺乏臨床 AI 應用的相關內容 - 臨床醫師在 AI 開發中至少扮演 9 種不同角色（Scheek et al., 2021） 代表性培育模式 NHS Fellowship in Clinical AI（英國） - 模式： 12 個月、0.4 FTE，嵌入 NHS 臨床 AI 團隊 - 課程： 5 大主題（AI 基礎、法規標準、驗證評估、系統整合、策略文化） - 教學： 沉浸式專案 + 工作坊 + 線上學習 + 人脈網絡 - 來源： FCAI Curriculum v3.2 美國培訓路徑 - ACGME Clinical Informatics Fellowship - American Board of AI in Medicine (ABAIM) 認證 - AMIA 10×10 虛擬課程 - 來源： Clinician's Guide to AI 自學參考資源 - The Physician AI Handbook（CC BY 4.0，19 專科證據整理） 關鍵能力領域（跨來源綜合） 能力 FCAI Curriculum Clinician's Guide Physician AI Handbook ------:-::-::-: AI/ML 基礎概念 ✓ ✓ ✓ 法規與合規 ✓ — ✓ 驗證與評估 ✓ ✓ ✓ 偏見與公平 ✓ ✓ ✓ 工作流程整合 ✓ ✓ ✓ 品質改善方法 — ✓ — 策略與變革管理 ✓ — — 政策支持 - The Topol Review (2019)： 呼籲 NHS 建立具有專門認證時間的臨床 AI 職位 - Quintuple Aim： AI 導入應支持品質、體驗、成本、公平、人員福祉五大目標 相關頁面 - 數位準備度系統性回顧 (Alotaibi 2025) - FCAI Curriculum 摘要 - Clinician's Guide to AI 摘要 - The Physician AI Handbook 摘要 - AI 臨床評估框架 - The Stanford Method - 數位健康能力 - 跨國框架比較分析"
   },
   {
     "slug": "coded-bias",
