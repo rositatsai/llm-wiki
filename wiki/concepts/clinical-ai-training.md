@@ -65,6 +65,7 @@ tags:
 - **Quintuple Aim：** AI 導入應支持品質、體驗、成本、公平、人員福祉五大目標
 
 ## 相關頁面
+- [[summary-enhancing-digital-readiness-capability|數位準備度系統性回顧 (Alotaibi 2025)]]
 - [[summary-fcai-clinical-ai-curriculum|FCAI Curriculum 摘要]]
 - [[summary-clinicians-guide-ai-primary-care|Clinician's Guide to AI 摘要]]
 - [[summary-physician-ai-handbook|The Physician AI Handbook 摘要]]

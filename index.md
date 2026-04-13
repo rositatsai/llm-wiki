@@ -5,7 +5,7 @@ updated: 2026-04-14
 
 # LLM Wiki — 知識庫知識地圖
 
-> **24 筆原始來源 → 22 頁 Wiki → 4 大知識主軸**
+> **25 筆原始來源 → 23 頁 Wiki → 4 大知識主軸**
 
 ---
 
@@ -27,6 +27,7 @@ updated: 2026-04-14
 | 🇦🇺 澳洲 | [[summary-frameworks-australia]] | 8 | AU General、AMC 醫師、Nursing、Allied Health、Action Plan、Roadmap、自評工具 |
 | 🌍 國際 | [[summary-frameworks-international]] | 9 | EU DigComp 2.2、US HHS AI Plan、Canada、ASEAN、Singapore、UNESCO |
 | 📚 學術 | [[summary-scoping-reviews-digital-competence]] | 2 | Brice (59 項能力/13 類別)、Mainz (46 篇研究/衡量缺口) |
+| 📚 學術 | [[summary-enhancing-digital-readiness-capability]] | 1 | Alotaibi (2025) UTAUT 框架、21 篇研究、障礙與促進因素 |
 
 ### 關鍵機構
 - [[hee|Health Education England (HEE)]] — 英國醫療數位能力框架制定者
@@ -115,12 +116,14 @@ updated: 2026-04-14
 
 | 指標 | 數量 |
 |------|------|
-| 原始來源 | 24 筆（23 papers + 1 article） |
-| Wiki 頁面 | 22 頁 |
+| 原始來源 | 25 筆（24 papers + 1 article） |
+| Wiki 頁面 | 23 頁 |
 | — Analyses | 1 |
 | — Concepts | 8 |
 | — Entities | 6 |
-| — Summaries | 7 |
+| — Summaries | 8 |
 | 涵蓋國家/區域 | 8（UK、Australia、EU、USA、Canada、ASEAN、Singapore、International） |
 
 **最後更新：** 2026-04-14
+
+> **25 筆原始來源 → 23 頁 Wiki → 4 大知識主軸** 已更新為 25 筆 → 23 頁

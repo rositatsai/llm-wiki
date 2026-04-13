@@ -61,3 +61,4 @@ tags:
 ## 相關頁面
 - [[analysis-global-digital-health-capability-frameworks|跨國框架比較分析]]
 - [[digital-health-capability|數位健康能力]]
+- [[summary-enhancing-digital-readiness-capability|數位準備度系統性回顧 (Alotaibi 2025)]]

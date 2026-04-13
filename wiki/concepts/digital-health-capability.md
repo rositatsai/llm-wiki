@@ -9,6 +9,7 @@ sources:
   - raw/papers/eu-digcomp-2.2-digital-competence-framework.md
   - raw/papers/scoping-review-health-professional-digital-capabilities-frameworks.md
   - raw/papers/scoping-review-measuring-digital-competence-health-professionals.md
+  - raw/papers/enhancing-digital-readiness-capability-healthcare-systematic-review.md
 tags:
   - 數位能力
   - 核心概念
@@ -51,11 +52,16 @@ tags:
 - AI 倫理與偏見
 - AI 工作流程整合
 
+## 數位準備度的障礙與促進因素
+
+Alotaibi et al. (2025) 系統性回顧以 UTAUT 框架分析 21 篇研究，發現影響醫療人員數位能力的四大因素：績效期望、努力期望、社會影響、促進條件。訓練不足和基礎設施缺陷是最主要障礙，而感知有用性和組織支持則是關鍵促進因素。詳見 [[summary-enhancing-digital-readiness-capability|Alotaibi et al. (2025) 摘要]]。
+
 ## 相關頁面
 - [[analysis-global-digital-health-capability-frameworks|跨國框架比較分析]]
 - [[summary-frameworks-uk|英國框架摘要]]
 - [[summary-frameworks-australia|澳洲框架摘要]]
 - [[summary-frameworks-international|國際框架摘要]]
 - [[summary-scoping-reviews-digital-competence|Scoping Reviews 摘要]]
+- [[summary-enhancing-digital-readiness-capability|數位準備度系統性回顧 (Alotaibi 2025)]]
 - [[clinical-ai-training|臨床 AI 人才培育]]
 - [[ai-clinical-evaluation|AI 臨床評估框架]]
