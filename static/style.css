@@ -1,0 +1,397 @@
+/* === LLM Wiki — Medical AI Knowledge Base === */
+
+:root {
+  --navy: #003366;
+  --navy-light: #004d99;
+  --bg: #fafbfc;
+  --card-bg: #ffffff;
+  --border: #e1e4e8;
+  --text: #24292e;
+  --text-secondary: #586069;
+  --link: #0366d6;
+  --concept: #1565c0;
+  --entity: #2e7d32;
+  --summary: #e65100;
+  --analysis: #6a1b9a;
+  --tag-bg: #f1f3f5;
+  --tag-border: #d0d7de;
+  --radius: 6px;
+  --shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Noto Sans TC', 'Inter', -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.8;
+  font-size: 15px;
+}
+
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* --- Top Nav --- */
+.topnav {
+  background: var(--navy);
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+.nav-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.nav-brand {
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.nav-brand:hover { text-decoration: none; opacity: 0.9; }
+.brand-icon { font-size: 22px; }
+
+.search-wrapper {
+  flex: 1;
+  max-width: 400px;
+  position: relative;
+}
+#search-input {
+  width: 100%;
+  padding: 7px 14px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  font-family: inherit;
+  background: rgba(255,255,255,0.15);
+  color: #fff;
+  outline: none;
+  transition: background 0.2s;
+}
+#search-input::placeholder { color: rgba(255,255,255,0.6); }
+#search-input:focus { background: rgba(255,255,255,0.25); }
+
+.search-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin-top: 4px;
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  display: none;
+  max-height: 400px;
+  overflow-y: auto;
+  z-index: 200;
+}
+.search-dropdown.active { display: block; }
+.search-item {
+  display: block;
+  padding: 10px 16px;
+  color: var(--text);
+  border-bottom: 1px solid var(--border);
+}
+.search-item:hover { background: #f6f8fa; text-decoration: none; }
+.search-item:last-child { border-bottom: none; }
+.search-item .si-title { font-weight: 500; }
+.search-item .si-type {
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-left: 8px;
+}
+.search-item .si-excerpt {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-top: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* --- Layout --- */
+.layout {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 32px;
+  padding: 24px;
+  min-height: calc(100vh - 56px - 60px);
+}
+
+/* --- Sidebar --- */
+.sidebar {
+  position: sticky;
+  top: 80px;
+  align-self: start;
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+}
+.sidebar-section { margin-bottom: 24px; }
+.sidebar-section h3 {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--border);
+}
+.nav-list { list-style: none; }
+.nav-list li a {
+  display: block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  color: var(--text);
+}
+.nav-list li a:hover {
+  background: var(--tag-bg);
+  text-decoration: none;
+}
+
+/* --- Tag Cloud --- */
+.tag-cloud { display: flex; flex-wrap: wrap; gap: 6px; }
+.tag-pill {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: 13px;
+  background: var(--tag-bg);
+  border: 1px solid var(--tag-border);
+  color: var(--text);
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+.tag-pill:hover {
+  background: var(--navy);
+  color: #fff;
+  border-color: var(--navy);
+  text-decoration: none;
+}
+.tag-pill-lg { font-size: 16px; padding: 4px 16px; }
+
+/* --- Content Area --- */
+.content {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 32px 40px;
+  min-width: 0;
+}
+
+/* --- Hero (Index) --- */
+.hero {
+  text-align: center;
+  padding: 20px 0 32px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 32px;
+}
+.hero h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--navy);
+}
+.hero-stats {
+  color: var(--text-secondary);
+  margin-top: 8px;
+  font-size: 15px;
+}
+
+/* --- Index Sections --- */
+.index-section { margin-bottom: 32px; }
+.index-section h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 12px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--navy);
+}
+.page-card {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+.page-card:last-child { border-bottom: none; }
+.page-card a { font-weight: 500; }
+.page-card .pc-tags { display: flex; gap: 4px; flex-wrap: wrap; }
+.page-card .pc-tags .tag-pill { font-size: 11px; padding: 1px 7px; }
+
+/* --- Wiki Page --- */
+.page-header { margin-bottom: 28px; }
+.page-header h1 {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--navy);
+  margin: 8px 0;
+}
+.page-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+.page-tags { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 6px; }
+
+.type-badge {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 10px;
+  border-radius: 4px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.type-concept { background: var(--concept); }
+.type-entity { background: var(--entity); }
+.type-summary { background: var(--summary); }
+.type-analysis { background: var(--analysis); }
+
+/* --- Page Body --- */
+.page-body h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--navy);
+  margin: 28px 0 12px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--border);
+}
+.page-body h3 {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 20px 0 8px;
+}
+.page-body p { margin-bottom: 12px; }
+.page-body ul, .page-body ol { margin: 8px 0 12px 24px; }
+.page-body li { margin-bottom: 4px; }
+.page-body strong { font-weight: 600; }
+
+.page-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+  font-size: 14px;
+  overflow-x: auto;
+  display: block;
+}
+.page-body thead th {
+  background: var(--navy);
+  color: #fff;
+  font-weight: 500;
+  padding: 8px 12px;
+  text-align: left;
+  white-space: nowrap;
+}
+.page-body tbody td {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+}
+.page-body tbody tr:nth-child(even) { background: #f9f9f9; }
+.page-body tbody tr:hover { background: #f0f4f8; }
+
+.page-body blockquote {
+  border-left: 4px solid var(--navy-light);
+  padding: 8px 16px;
+  margin: 12px 0;
+  background: #f6f8fa;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  color: var(--text-secondary);
+}
+
+.page-body code {
+  background: #f0f2f4;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 13px;
+}
+.page-body pre {
+  background: #f6f8fa;
+  padding: 16px;
+  border-radius: var(--radius);
+  overflow-x: auto;
+  margin: 12px 0;
+}
+.page-body pre code { background: none; padding: 0; }
+
+/* Wikilinks */
+a.wikilink { color: var(--link); font-weight: 500; }
+a.wikilink:hover { text-decoration: underline; }
+.broken-link {
+  color: #cb2431;
+  border-bottom: 1px dashed #cb2431;
+  cursor: help;
+}
+
+/* --- Backlinks & Sources --- */
+.backlinks, .sources-section {
+  margin-top: 32px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+.backlinks h2, .sources-section h2 {
+  font-size: 15px;
+  color: var(--text-secondary);
+  border: none;
+  margin-bottom: 8px;
+}
+.backlinks ul, .sources-section ul {
+  list-style: none;
+  margin: 0;
+}
+.backlinks li, .sources-section li {
+  padding: 4px 0;
+  font-size: 14px;
+}
+
+/* --- Tag Listing Page --- */
+.tag-listing h1 { margin-bottom: 4px; }
+.tag-count { color: var(--text-secondary); margin-bottom: 20px; }
+.page-list .page-card { padding: 10px 0; }
+
+/* --- Footer --- */
+footer {
+  text-align: center;
+  padding: 16px 24px;
+  font-size: 13px;
+  color: var(--text-secondary);
+  border-top: 1px solid var(--border);
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .layout {
+    grid-template-columns: 1fr;
+    padding: 12px;
+    gap: 16px;
+  }
+  .sidebar {
+    position: static;
+    max-height: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .sidebar-section { flex: 1; min-width: 200px; }
+  .content { padding: 20px; }
+  .hero h1 { font-size: 22px; }
+  .page-header h1 { font-size: 22px; }
+  .page-body table { font-size: 13px; }
+  .nav-inner { padding: 0 12px; }
+  .search-wrapper { max-width: 240px; }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{title}} — LLM Wiki</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{root}}style.css">
+</head>
+<body>
+  <nav class="topnav">
+    <div class="nav-inner">
+      <a href="{{root}}index.html" class="nav-brand">
+        <span class="brand-icon">📚</span> LLM Wiki
+      </a>
+      <div class="search-wrapper">
+        <input type="text" id="search-input" placeholder="搜尋知識庫…" autocomplete="off">
+        <div id="search-results" class="search-dropdown"></div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-section">
+        <h3>知識主軸</h3>
+        <ul class="nav-list">
+          <li><a href="{{root}}index.html#axis-1">數位健康能力框架</a></li>
+          <li><a href="{{root}}index.html#axis-2">醫療 AI 導入與評估</a></li>
+          <li><a href="{{root}}index.html#axis-3">臨床 AI 人才培育</a></li>
+          <li><a href="{{root}}index.html#axis-4">策略與政策</a></li>
+        </ul>
+      </div>
+      <div class="sidebar-section">
+        <h3>頁面分類</h3>
+        <ul class="nav-list">
+          <li><a href="{{root}}type/analysis.html">📊 分析</a></li>
+          <li><a href="{{root}}type/concept.html">💡 概念</a></li>
+          <li><a href="{{root}}type/entity.html">👤 實體</a></li>
+          <li><a href="{{root}}type/summary.html">📄 摘要</a></li>
+        </ul>
+      </div>
+      <div class="sidebar-section">
+        <h3>關鍵詞</h3>
+        <div id="tag-cloud" class="tag-cloud">{{tag_cloud}}</div>
+      </div>
+    </aside>
+
+    <main class="content">
+      {{content}}
+    </main>
+  </div>
+
+  <footer>
+    <p>LLM Wiki — 持續更新的醫療 AI 知識庫 · 最後建置：{{build_time}}</p>
+  </footer>
+
+  <script src="{{root}}app.js"></script>
+</body>
+</html>
