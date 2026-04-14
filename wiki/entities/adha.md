@@ -10,7 +10,7 @@ sources:
 tags:
   - 組織
   - Australia
-  - 數位健康
+  - 數位能力
 ---
 
 # Australian Digital Health Agency (ADHA)

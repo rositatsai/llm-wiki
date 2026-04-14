@@ -17,7 +17,7 @@ tags:
 
 ## 1. A Health and Care Digital Capabilities Framework（HEE, 2018）
 
-**機構：** Health Education England (HEE)
+**機構：** [[hee|Health Education England (HEE)]]
 **目標：** 所有健康與社會照護工作者
 
 ### 六大能力領域

@@ -10,7 +10,6 @@ tags:
   - 課程設計
   - NHS
   - 人才培育
-  - Fellowship
 ---
 
 # 來源摘要：NHS Fellowship in Clinical AI Curriculum v3.2

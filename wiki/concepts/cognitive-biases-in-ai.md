@@ -6,8 +6,6 @@ updated: 2026-04-14
 sources:
   - raw/papers/fcai-clinical-ai-curriculum-v3.2.md
 tags:
-  - 認知偏見
-  - 人因工程
   - 臨床安全
   - AI導入
 ---

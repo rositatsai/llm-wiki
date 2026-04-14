@@ -14,7 +14,7 @@ tags:
 
 # 來源摘要：The Physician AI Handbook
 
-**作者：** [[Bryan Tegomoh]]（MD, MPH, Washington University School of Medicine）
+**作者：** [[bryan-tegomoh|Bryan Tegomoh]]（MD, MPH, Washington University School of Medicine）
 **出版：** 2026 年 4 月 ｜ **授權：** CC BY 4.0
 **來源：** [physicianaihandbook.com](https://physicianaihandbook.com/)
 
@@ -44,5 +44,5 @@ tags:
 ## 相關頁面
 - [[醫療AI臨床導入]]
 - [[AI評估框架]]
-- [[Bryan Tegomoh]]
+- [[bryan-tegomoh|Bryan Tegomoh]]
 - [[LLM臨床應用]]

@@ -7,10 +7,8 @@ sources:
   - raw/papers/fcai-clinical-ai-curriculum-v3.2.md
   - raw/articles/physician-ai-handbook.md
 tags:
-  - 驗證
-  - 法規
-  - 標準
-  - 醫療器材
+  - AI評估
+  - 法規標準
 ---
 
 # AI 驗證標準

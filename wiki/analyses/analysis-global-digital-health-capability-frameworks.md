@@ -27,8 +27,6 @@ sources:
   - raw/papers/au-digital-health-self-evaluation-tool.md
 tags:
   - 數位能力
-  - 框架比較
-  - 跨國分析
   - 醫療人力
   - AI能力
 ---

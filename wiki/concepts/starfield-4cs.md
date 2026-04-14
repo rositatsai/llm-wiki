@@ -7,7 +7,7 @@ sources:
   - raw/papers/clinicians-guide-ai-primary-care-lead-healthcare-ai.md
 tags:
   - 基層醫療
-  - 醫療框架
+  - 方法論
   - AI導入
 ---
 

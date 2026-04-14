@@ -8,7 +8,7 @@ sources:
 tags:
   - AI導入
   - 品質改善
-  - 實施方法
+  - 方法論
   - Stanford
 ---
 

@@ -16,7 +16,6 @@ tags:
   - Australia
   - 數位能力
   - 醫療人力
-  - 路線圖
 ---
 
 # 來源摘要：澳洲數位健康能力框架與路線圖（8 份）
@@ -42,7 +41,7 @@ tags:
 - **特色：** 彌合「真實醫療服務」與「醫學教育」之間的數位落差
 
 ### National Nursing and Midwifery Digital Health Capability Framework（2020）
-- **機構：** Australian Digital Health Agency + AIDH
+- **機構：** [[adha|Australian Digital Health Agency]] + AIDH
 - **目標：** 護理師、助產師
 
 ### Digital Health Capability Framework for Allied Health Professionals（Victoria, 2022）
@@ -58,7 +57,7 @@ tags:
 - 面對的挑戰：人口老化、消費者期望提升、從醫院轉向社區照護
 
 ### National Digital Health Workforce and Education Roadmap（2020）
-- **機構：** Australian Digital Health Agency
+- **機構：** [[adha|Australian Digital Health Agency]]
 - 153 頁的全面性人力和教育路線圖
 
 ### Victoria's Digital Health Roadmap 2021-2025

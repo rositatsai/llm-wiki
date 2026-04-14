@@ -7,9 +7,7 @@ sources:
   - raw/papers/scoping-review-health-professional-digital-capabilities-frameworks.md
   - raw/papers/scoping-review-measuring-digital-competence-health-professionals.md
 tags:
-  - Scoping Review
   - 數位能力
-  - 衡量工具
   - 文獻回顧
 ---
 

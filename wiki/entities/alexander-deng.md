@@ -8,7 +8,7 @@ sources:
 tags:
   - 人物
   - NHS
-  - 臨床AI教育
+  - 人才培育
 ---
 
 # Alexander T Deng

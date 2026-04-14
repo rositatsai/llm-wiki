@@ -6,10 +6,8 @@ updated: 2026-04-14
 sources:
   - raw/papers/clinicians-guide-ai-primary-care-lead-healthcare-ai.md
 tags:
-  - AI偏見
+  - AI倫理
   - 健康公平
-  - 演算法正義
-  - 倫理
 ---
 
 # Coded Bias（編碼偏見）

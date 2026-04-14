@@ -12,7 +12,6 @@ sources:
   - raw/papers/enhancing-digital-readiness-capability-healthcare-systematic-review.md
 tags:
   - 數位能力
-  - 核心概念
   - 醫療人力
 ---
 
